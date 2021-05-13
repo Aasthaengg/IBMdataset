@@ -1,0 +1,15 @@
+A, B, M = map(int, input().split())
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+x = list()
+y = list()
+c = list()
+for i in range(M):
+    _x, _y, _c = map(int, input().split())
+    x.append(_x-1)
+    y.append(_y-1)
+    c.append(_c)
+ans = min(a) + min(b)
+for i in range(M):
+    ans = min(ans, a[x[i]]+b[y[i]]-c[i])
+print(ans)

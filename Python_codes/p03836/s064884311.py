@@ -1,0 +1,15 @@
+sx, sy, tx, ty = map(int,input().split())
+S = ''
+S += (tx-sx)*'R'
+S += (ty-sy)*'U'
+S += (tx-sx)*'L'
+S += (ty-sy)*'D'
+S += 'D'
+S += (tx-sx+1)*'R'
+S += (ty-sy+1)*'U'
+S += 'L'
+S += 'U'
+S += (tx-sx+1)*'L'
+S += (ty-sy+1)*'D'
+S += 'R'
+print(S)

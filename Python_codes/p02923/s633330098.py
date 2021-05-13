@@ -1,0 +1,10 @@
+N=int(input())
+H=list(map(int,input().split()))
+c,d=0,0
+for i in range(N-1):
+  if H[i]>=H[i+1]:
+    c+=1
+  else:
+    d=max(c,d)
+    c=0
+print(max(c,d))

@@ -1,0 +1,1 @@
+print(eval("3*"+input().replace(" ","+"))//2)

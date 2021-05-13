@@ -1,0 +1,10 @@
+x=int(input())
+ans=[0,0]
+for a in range(-200,200):
+    for b in range(-200,200):
+        if a**5-b**5==x:
+            print(a,b)
+            break
+    else:
+        continue
+    break

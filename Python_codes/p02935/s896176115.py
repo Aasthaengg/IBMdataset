@@ -1,0 +1,16 @@
+# C - Alchemist
+def main():
+    n = int(input())
+    v = list(map(int, input().split()))
+    v.sort()
+
+    ans = (v[0] + v[1]) / 2
+    if n == 2:
+        print(ans)
+    else:
+        for i in range(2,n):
+            ans = (v[i] + ans) / 2
+        print(ans)
+
+if __name__ ==  "__main__":
+    main()

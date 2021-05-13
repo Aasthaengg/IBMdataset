@@ -1,0 +1,1 @@
+l=list(map(int,input().split()));print('YES'if l.count(sum(l)/3)!=0else'NO')

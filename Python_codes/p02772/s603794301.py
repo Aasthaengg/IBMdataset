@@ -1,0 +1,1 @@
+n=input();print(['DENIED','APPROVED'][all([1 if j%3==0 or j%5==0 else 0 for j in [i for i in list(map(int,input().split())) if i%2==0]])])

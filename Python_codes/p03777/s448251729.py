@@ -1,0 +1,1 @@
+print("DH"[input() in "D DH H"])

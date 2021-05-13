@@ -1,0 +1,14 @@
+N = int(input())
+H = list(map(int, input().split()))
+
+for i in range(len(H)-2, -1, -1):
+    if H[i] - H[i+1] == 1:
+        H[i] -= 1
+    elif  H[i] - H[i+1] >= 2:
+        print("No")
+        exit()
+    else:
+        continue
+
+print("Yes")
+

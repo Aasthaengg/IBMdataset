@@ -1,0 +1,1 @@
+print("YES"if input().count("x")<8else"NO")

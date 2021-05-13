@@ -1,0 +1,5 @@
+inp = input()
+A = int(inp.split()[0])
+P = int(inp.split()[1])
+result = int((A*3+P)/2)
+print(result)

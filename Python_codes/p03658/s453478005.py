@@ -1,0 +1,5 @@
+n, k = map(int, input().split())
+li = list(map(int, input().split()))
+li.sort(reverse=True)
+length = sum(li[x] for x in range(k))
+print(length)

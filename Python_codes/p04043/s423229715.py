@@ -1,0 +1,1 @@
+print('YNEOS'['7 7'in input()::2])

@@ -1,0 +1,11 @@
+S = input()
+K = int(input())
+for i, s in enumerate(S):
+    if s == "1":
+        K -= 1
+    else:
+        print(s)
+        break
+    if K <= 0:
+        print("1")
+        break

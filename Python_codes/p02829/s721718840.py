@@ -1,0 +1,5 @@
+a = input()
+a1 = int(a)
+b = input()
+b1 = int(b)
+print(6-a1-b1)

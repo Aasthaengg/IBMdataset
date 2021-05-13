@@ -1,0 +1,7 @@
+
+N = int(input())
+
+N //= 3
+
+print('%d' %(N))
+

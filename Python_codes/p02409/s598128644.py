@@ -1,0 +1,12 @@
+n = int(input())
+a = []
+for _ in range(12):
+	a.append([int(0) for _ in range(10)])
+for _ in range(n):
+	b, f, r, v = map(int, raw_input().split())
+	a[3*(b-1) + f-1][r-1] += v
+for i in range(4):
+	for j in range(3):
+		print ' ' + ' '.join(map(str, a[3*i + j]))
+	if i < 3:
+		print '#' * 20

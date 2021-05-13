@@ -1,0 +1,14 @@
+a,u=map(int,input().split())
+b,v=map(int,input().split())
+t=int(input())
+if(a==b):
+  print('YES')
+else:
+  dif=abs(b-a)
+  d=v*t
+  dif+=d
+  d1=u*t
+  if(d1>=dif):
+    print('YES')
+  else:
+    print('NO')

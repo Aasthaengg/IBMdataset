@@ -1,0 +1,1 @@
+print('ABloircyes'[sum(map(int,input().split()[1:]))%2::2])

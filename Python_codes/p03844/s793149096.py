@@ -1,0 +1,5 @@
+str = input().split()
+a = int(str[0])
+b = int(str[2])
+if str[1] == "+": print(a + b)
+else: print(a - b)

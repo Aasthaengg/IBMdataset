@@ -1,0 +1,10 @@
+r=input().split()
+a=int(r[0])
+b=int(r[1])
+c=int(r[2])
+d=int(r[3])
+x=b*d
+y=a*c
+z=a*d
+w=b*c
+print(max(x,y,z,w))

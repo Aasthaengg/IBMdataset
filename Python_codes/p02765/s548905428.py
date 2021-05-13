@@ -1,0 +1,1 @@
+print((lambda x:(int(x[1])+(100*(10 - (10 if int(x[0])>=10 else int(x[0]))))))(input().split()))

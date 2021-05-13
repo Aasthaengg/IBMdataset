@@ -1,0 +1,7 @@
+A,B,C,D = input().split(" ")
+a= int(A)
+b= int(B)
+c= int(C)
+d= int(D)
+if a*b >= c*d : print(a*b)
+else : print(c*d)

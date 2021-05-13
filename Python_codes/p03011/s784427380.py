@@ -1,0 +1,3 @@
+num_list = list(map(int, input().split()))
+num_list.sort(reverse=False)
+print(num_list[0] + num_list[1])

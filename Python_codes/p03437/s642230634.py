@@ -1,0 +1,1 @@
+X,Y=map(int,input().split());print(X*~-Y*(X%Y>0)or-1)

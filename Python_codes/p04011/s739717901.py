@@ -1,0 +1,5 @@
+n=int(input())
+k=max([0,n-int(input())])
+x=int(input())
+y=int(input())
+print(x*(n-k)+y*k)

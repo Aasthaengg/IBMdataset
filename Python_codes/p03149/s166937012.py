@@ -1,0 +1,1 @@
+print(["YES", "NO"][not(set(input().split()) == set("1974"))])

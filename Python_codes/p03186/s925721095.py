@@ -1,0 +1,5 @@
+x=input().split()
+A=int(x[0])
+B=int(x[1])
+C=int(x[2])
+print(B+min(C,A+B+1))

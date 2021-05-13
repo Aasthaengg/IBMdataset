@@ -1,0 +1,5 @@
+N = int(input())
+Ls = list(map(int, input().split()))
+Ls.sort()
+r = sum(Ls[0::2])
+print(r)

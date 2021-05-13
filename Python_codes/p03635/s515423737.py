@@ -1,0 +1,5 @@
+data = input().split(" ")
+n = int(data[0])
+m = int(data[1])
+a = (n-1)*(m-1)
+print(a)

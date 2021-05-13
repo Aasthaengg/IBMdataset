@@ -1,0 +1,1 @@
+a=input().replace('5','');print('NYOE S'[a.count('7')==1::2])

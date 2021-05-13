@@ -1,0 +1,1 @@
+print(f"{eval(input().replace(*' *'))%3%2*'Imp'or'P'}ossible")

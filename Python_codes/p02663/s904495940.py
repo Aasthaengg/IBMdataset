@@ -1,0 +1,5 @@
+if __name__ == '__main__':
+    a = [int(i) for i in input().split()]
+
+    print(a[2]*60 + a[3] -a[0]*60 - a[1] -a[4] )
+

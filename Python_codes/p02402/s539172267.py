@@ -1,0 +1,3 @@
+n = int(input())
+data = list(map(int, input().split()))
+print('%d %d %d' % (min(data), max(data), sum(data)))

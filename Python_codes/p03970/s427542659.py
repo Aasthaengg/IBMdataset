@@ -1,0 +1,1 @@
+s=list('CODEFESTIVAL2016');t=list(input());print(sum([1 for i in range(16) if s[i]!=t[i]]))

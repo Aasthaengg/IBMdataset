@@ -1,0 +1,34 @@
+def find_primes(n):
+    ps = []
+    t = [True] * n
+    t[0] = t[1] = False
+    for i in range(2, n):
+        if not t[i]:
+            continue
+        ps.append(i)
+        for j in range(i, n, i):
+            t[j] = False
+    return ps
+
+
+def solve(string):
+    n = int(string)
+    if n == 1:
+        return "0"
+    rn = int(n**0.5 + 1)
+    ps = find_primes(rn)
+    ans = 0
+    f = True
+    for i in ps:
+        k = 1
+        while n % (i**k) == 0:
+            ans += 1
+            n //= i**k
+            f = False
+            k += 1
+    return str(ans + 1 if f else ans + (n >= rn))
+
+
+if __name__ == '__main__':
+    import sys
+    print(solve(sys.stdin.read().strip()))

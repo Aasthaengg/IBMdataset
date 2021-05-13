@@ -1,0 +1,6 @@
+a, b, c = map(int, input().split())
+ans = float('inf')
+ans = min(ans, a * b * ((c + 1) // 2) - a * b * (c // 2))
+ans = min(ans, b * c * ((a + 1) // 2) - b * c * (a // 2))
+ans = min(ans, c * a * ((b + 1) // 2) - c * a * (b // 2))
+print(ans)

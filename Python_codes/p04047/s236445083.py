@@ -1,0 +1,10 @@
+def main():
+    N = int(input())
+    L = list(map(int, input().split()))
+    L.sort()
+    ans = sum(L[::2])
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()

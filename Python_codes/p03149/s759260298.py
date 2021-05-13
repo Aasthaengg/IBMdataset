@@ -1,0 +1,1 @@
+print(['NO','YES'][set(input().split())==set(['1','7','9','4'])])

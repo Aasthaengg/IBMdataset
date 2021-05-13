@@ -1,0 +1,49 @@
+import sys
+sys.setrecursionlimit(10**8)
+def ii(): return int(sys.stdin.readline())
+def mi(): return map(int, sys.stdin.readline().split())
+def li(): return list(map(int, sys.stdin.readline().split()))
+def li2(N): return [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
+def dp2(ini, i, j): return [[ini]*i for _ in range(j)]
+def dp3(ini, i, j, k): return [[[ini]*i for _ in range(j)] for _ in range(k)]
+#import bisect #bisect.bisect_left(B, a)
+#from collections import defaultdict #d = defaultdict(int) d[key] += value
+#from itertools import accumulate #list(accumulate(A))
+
+N, K = mi()
+S = input()
+
+len_list = [0]*(2*(10**5)+100)
+ind = 0
+if S[0] == '0':
+    len_list[0] = 0
+    ind += 1
+
+cnt = 1
+for i in range(1, N):
+    if S[i] != S[i-1]:
+        len_list[ind] = cnt
+        ind += 1
+        cnt = 1
+    else:
+        cnt += 1
+len_list[ind] = cnt
+
+#print(len_list[:30])
+i = 0
+wa = 0
+sum_l = sum(len_list[:2*K+1])
+while True:
+    if len_list[i+2*K+1] != 0:
+        wa = max(wa, sum_l)
+    else:
+        wa = max(wa, sum_l)
+        break
+    sum_l -= (len_list[i] + len_list[i+1])
+    sum_l += (len_list[i+2*K+1] + len_list[i+2*K+2])
+    i += 2
+print(wa)
+
+
+        
+

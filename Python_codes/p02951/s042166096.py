@@ -1,0 +1,1 @@
+a=-eval(input().replace(' ','-'));print((a>0)*a or 0)

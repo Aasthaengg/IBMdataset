@@ -1,0 +1,1 @@
+n=input();print('NYoe s'[len(set(n))==1 or (len(set(n))==2 and n[1]==n[2] and n[0]!=n[3])::2])

@@ -1,0 +1,12 @@
+n=int(input())
+arr=list(map(int,input().split()))
+arr.sort()
+count=3
+comfort=arr[n-1]
+pos=n-2
+while(count<=n):
+	comfort+=arr[pos]
+	if(count%2==0):
+		pos-=1
+	count+=1
+print(comfort)

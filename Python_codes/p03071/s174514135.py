@@ -1,0 +1,5 @@
+a,b=map(int,input().split())
+r1=max(a,b)
+m=min(a,b)
+r2=max(r1-1,m)
+print(r1+r2)

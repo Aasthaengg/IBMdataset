@@ -1,0 +1,7 @@
+n = int(input())
+a, b = map(int, input().split())
+p = list(map(int, input().split()))
+one = sum(1 for i in p if i <= a)
+two = sum(1 for i in p if a + 1 <= i <= b)
+three = sum(1 for i in p if b + 1<= i)
+print(min(one, two, three))

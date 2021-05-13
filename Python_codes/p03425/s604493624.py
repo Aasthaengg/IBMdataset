@@ -1,0 +1,20 @@
+n=int(input())
+d={'M':0,'A':0,'R':0,'C':0,'H':0}
+ans=0
+for _ in range(n):
+	i=input()
+	try:
+		d[i[0]]+=1
+	except:
+		pass
+ans+=d['M']*d['A']*d['R']
+ans+=d['M']*d['A']*d['C']
+ans+=d['M']*d['A']*d['H']
+ans+=d['M']*d['C']*d['H']
+ans+=d['M']*d['R']*d['H']
+ans+=d['A']*d['R']*d['C']
+ans+=d['A']*d['R']*d['H']
+ans+=d['A']*d['C']*d['H']
+ans+=d['R']*d['C']*d['H']
+ans+=d['M']*d['C']*d['R']
+print(ans)

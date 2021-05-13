@@ -1,0 +1,5 @@
+A,B,C = map(str, input().split())
+A = A.upper()
+B = B.upper()
+C = C.upper()
+print(A[0] + B[0] + C[0])

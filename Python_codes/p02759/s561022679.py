@@ -1,0 +1,1 @@
+print(__import__('math').ceil(int(input()) / 2))

@@ -1,0 +1,5 @@
+K,T = map(int,input().split())
+a = list(map(int,input().split()))
+a.sort()
+a_sum =sum(a[:-1])
+print(max(0,max(a)-a_sum-1))

@@ -1,0 +1,1 @@
+a=int(input());u=111;print((a//u+(a%u>0)or 0)*u)

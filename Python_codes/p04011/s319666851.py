@@ -1,0 +1,1 @@
+N,K,X,Y=map(int, open(0).read().split());print(N*X if N<=K else K*X+(N-K)*Y)

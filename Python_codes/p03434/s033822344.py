@@ -1,0 +1,9 @@
+N=int(input())
+ai=input().split()
+ai=list(map(int,ai))
+list.sort(ai,reverse=True)
+alice_number=ai[0::2]
+bob_number=ai[1::2]
+alice_tot=sum(alice_number)
+bob_tot=sum(bob_number)
+print(alice_tot-bob_tot)

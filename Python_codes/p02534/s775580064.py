@@ -1,0 +1,1 @@
+print 'ACL'* int(raw_input())

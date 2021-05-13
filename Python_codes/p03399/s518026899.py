@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+min_train = min(a, b)
+min_bus = min(c, d)
+print(min_train + min_bus)

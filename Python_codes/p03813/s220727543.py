@@ -1,0 +1,1 @@
+print(f"A{'RB'['1200'>input()]}C")

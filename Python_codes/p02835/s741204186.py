@@ -1,0 +1,1 @@
+a=sum(list(map(int,input().split())));print('bwuisnt'[a<=21::2])

@@ -1,0 +1,1 @@
+k=int(input());n=50;print(n);print(*[n+k//n-(0 if i<k%n else 1+k%n) for i in range(n)])

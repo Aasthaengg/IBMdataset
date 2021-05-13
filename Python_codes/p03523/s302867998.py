@@ -1,0 +1,26 @@
+S=input()
+T="AKIHABARA"
+c=0
+t=0
+while(True):
+    if(len(S)==c):
+        if(T[t]=="A"):
+            t+=1
+        else:
+            print("NO")
+            exit()
+    elif(S[c]==T[t]):
+        c+=1
+        t+=1
+    else:
+        if(T[t]=="A"):
+            t+=1
+        else:
+            print("NO")
+            exit()
+    if(len(S)==c and t==9):
+        print("YES")
+        exit()
+    elif(t==9):
+        print("NO")
+        exit()

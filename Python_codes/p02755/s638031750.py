@@ -1,0 +1,1 @@
+a,b=map(int,input().split());r=[i for i in range(1,1010) if i*0.08//1==a and i*0.1//1==b];print(r[0] if r else -1)

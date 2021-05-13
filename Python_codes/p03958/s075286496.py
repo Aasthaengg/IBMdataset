@@ -1,0 +1,6 @@
+K,T = map(int,input().split())
+a = list(map(int,input().split()))
+b = max(a)
+a.remove(b)
+ans = max(0, b - sum(a) - 1)
+print(ans)

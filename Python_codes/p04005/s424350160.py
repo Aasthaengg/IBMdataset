@@ -1,0 +1,5 @@
+a,b,c=map(int,input().split())
+d=abs((b*c)*(a//2)-(b*c)*(a-a//2))
+e=abs((a*c)*(b//2)-(a*c)*(b-b//2))
+f=abs((a*b)*(c//2)-(a*b)*(c-c//2))
+print(min(d,e,f))

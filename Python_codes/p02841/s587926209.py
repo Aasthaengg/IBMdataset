@@ -1,0 +1,1 @@
+print(0 if input()[:2] == input()[:2] else 1)

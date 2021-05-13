@@ -1,0 +1,1 @@
+A,P=map(int,raw_input().split());sum=3*A+P;print sum/2

@@ -1,0 +1,1 @@
+import re; r = 'Yes' if re.search('C.*F', input()) else 'No'; print(r)

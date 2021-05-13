@@ -1,0 +1,1 @@
+print(0 if bool(int(input())) else 1)

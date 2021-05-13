@@ -1,0 +1,1 @@
+import re;print(re.search('C.*F',input())and'Yes'or'No')

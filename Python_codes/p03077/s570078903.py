@@ -1,0 +1,10 @@
+n = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+limit = min(a,b,c,d,e)
+r,q = divmod(n, limit)
+
+print(5+r+min(q,1)-1)

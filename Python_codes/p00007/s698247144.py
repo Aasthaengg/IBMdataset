@@ -1,0 +1,13 @@
+def Round(ip, dg):  # ip???dg?????§?????¨?????\????????¢??°
+    ip = ip / 10**dg
+    if(ip-int(ip) != 0):
+        return (int(ip) + 1)*10**dg
+    else:
+        return int(ip)*10**dg
+
+
+n=int(input())
+sum=100000
+for i in range(0, n):
+    sum=Round(sum*1.05, 3)
+print(sum)

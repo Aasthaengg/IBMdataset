@@ -1,0 +1,11 @@
+HW = input()
+HW_ = HW.split()
+H = int(HW_[0])
+W = int(HW_[1])
+hw = input()
+hw_ = hw.split()
+h = int(hw_[0])
+w = int(hw_[1])
+
+ans = H * W - (h * W + w * H - h * w)
+print(ans)

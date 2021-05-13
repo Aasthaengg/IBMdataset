@@ -1,0 +1,5 @@
+sx, xy, tx, ty = map(int, input().split())
+print('U' * (ty - xy) + 'R' * (tx - sx), end='')
+print('D' * (ty - xy) + 'L' * (tx - sx), end='')
+print('D' + 'R' * (tx - sx + 1) + 'U' * (ty - xy + 1) + 'L', end='')
+print('U' + 'L' * (tx - sx + 1) + 'D' * (ty - xy + 1) + 'R')

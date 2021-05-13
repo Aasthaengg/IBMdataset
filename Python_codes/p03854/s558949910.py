@@ -1,0 +1,1 @@
+import re;print(re.match('(dream|dreamer|erase|eraser)*$',input())and'YES'or'NO')

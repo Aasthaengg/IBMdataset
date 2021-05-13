@@ -1,0 +1,5 @@
+N=int(input())
+c=str(input())
+R=c.count('R')
+W=c[:R].count('W')
+print(W)

@@ -1,0 +1,1 @@
+print((lambda a,b,c:"YNEOS"[a-2*b+c!=0::2])(*map(int,input().split())))

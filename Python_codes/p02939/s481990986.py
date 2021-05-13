@@ -1,0 +1,11 @@
+S=input()
+cnt=0;l='@';i=0
+while(i<len(S)):
+    if(S[i]==l):
+        if(i<len(S)-1):
+            l=S[i:i+2]
+            cnt+=1
+        i+=2
+    else:
+        l=S[i];cnt+=1;i+=1
+print(cnt)

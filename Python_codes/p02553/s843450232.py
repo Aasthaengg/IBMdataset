@@ -1,0 +1,6 @@
+abcd=input().split()
+a=int(abcd[0])
+b=int(abcd[1])
+c=int(abcd[2])
+d=int(abcd[3])
+print(max(a*c,a*d,b*c,b*d))

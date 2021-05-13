@@ -1,0 +1,60 @@
+import sys
+
+read = sys.stdin.read
+readline = sys.stdin.readline
+
+
+def main():
+    H, W = map(int, readline().split())
+    S = read().split()
+
+    L = [[0] * W for _ in range(H)]
+    R = [[0] * W for _ in range(H)]
+    U = [[0] * W for _ in range(H)]
+    D = [[0] * W for _ in range(H)]
+
+    for i in range(H):
+        c = 0
+        for j in range(W):
+            if S[i][j] == '#':
+                c = 0
+            else:
+                L[i][j] = c
+                c += 1
+        c = 0
+        for j in range(W - 1, -1, -1):
+            if S[i][j] == '#':
+                c = 0
+            else:
+                R[i][j] = c
+                c += 1
+
+    for j in range(W):
+        c = 0
+        for i in range(H):
+            if S[i][j] == '#':
+                c = 0
+            else:
+                U[i][j] = c
+                c += 1
+        c = 0
+        for i in range(H - 1, -1, -1):
+            if S[i][j] == '#':
+                c = 0
+            else:
+                D[i][j] = c
+                c += 1
+
+    ans = 0
+    for i in range(H):
+        l, r, u, d = L[i], R[i], U[i], D[i]
+        for j in range(W):
+            if ans < l[j] + r[j] + u[j] + d[j] + 1:
+                ans = l[j] + r[j] + u[j] + d[j] + 1
+
+    print(ans)
+    return
+
+
+if __name__ == '__main__':
+    main()

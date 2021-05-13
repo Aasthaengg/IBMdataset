@@ -1,0 +1,1 @@
+input();print("TFhoruere"[len(set(input().split()))==4::2])

@@ -1,0 +1,1 @@
+print(*[x[1] + (x[0] if x[1]%x[0]==0 else -x[0]) for x in [[int(x) for x in input().split()]]])

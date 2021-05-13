@@ -1,0 +1,1 @@
+n,m,d=map(int,input().split());print((d and(n-d)*2or n)*~-m/n/n)

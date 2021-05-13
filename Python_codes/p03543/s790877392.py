@@ -1,0 +1,1 @@
+N=input();print(['No','Yes'][len(set(N[:3]))==1or len(set(N[1:]))==1])

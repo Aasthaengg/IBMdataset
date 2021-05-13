@@ -1,0 +1,1 @@
+S,w=open(0);print(S[::int(w)])

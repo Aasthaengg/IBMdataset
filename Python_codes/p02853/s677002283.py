@@ -1,0 +1,1 @@
+x,y=[max(4-int(i),0)for i in input().split()];print((x+y+4*(x>2<y))*10**5)

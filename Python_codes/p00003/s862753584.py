@@ -1,0 +1,1 @@
+for i in range(int(raw_input())):a=sorted([int(x)**2 for x in raw_input().split()]);print ["NO","YES"][a[0]+a[1]==a[2]]

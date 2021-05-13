@@ -1,0 +1,1 @@
+N,M=map(int,input().split());import fractions;L=M//fractions.gcd(M,N)*N;print((-1,L)[input()[::L//M]==input()[::L//N]])

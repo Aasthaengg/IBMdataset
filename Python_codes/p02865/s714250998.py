@@ -1,0 +1,1 @@
+import math;print(int(math.floor(int(input())-.5)/2))

@@ -1,0 +1,1 @@
+print('\n'.join(map(str, (x[2]+1 for x in sorted((s, -int(p), i) for i, (s, p) in enumerate(zip(*[iter(open(0).read().split()[1:])]*2)))))))

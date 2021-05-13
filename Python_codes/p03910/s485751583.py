@@ -1,0 +1,33 @@
+import bisect
+import copy
+import heapq
+import math
+import sys
+from collections import *
+from functools import lru_cache
+from itertools import accumulate, combinations, permutations, product
+def input():
+    return sys.stdin.readline()[:-1]
+def ruiseki(lst):
+    return [0]+list(accumulate(lst))
+sys.setrecursionlimit(500000)
+mod=pow(10,9)+7
+al=[chr(ord('a') + i) for i in range(26)]
+direction=[[1,0],[0,1],[-1,0],[0,-1]]
+
+n=int(input())
+
+cnt=1
+while cnt*(cnt+1)//2<n:
+    cnt+=1
+
+# print(cnt)
+
+while n:
+    if n>=cnt:
+        n-=cnt
+        print(cnt)
+        cnt-=1
+    else:
+        print(n)
+        n=0

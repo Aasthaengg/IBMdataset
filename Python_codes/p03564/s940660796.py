@@ -1,0 +1,10 @@
+N = int(input())
+K = int(input())
+ans = 1
+
+for i in range(N):
+    if ans * 2 >= ans + K:
+        ans = ans + K
+    else:
+        ans = ans * 2
+print(ans)

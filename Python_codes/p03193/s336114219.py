@@ -1,0 +1,1 @@
+n,h,w,*t=map(int,open(0).read().split());print(sum(a>=h and b>=w for a,b in zip(t[::2],t[1::2])))

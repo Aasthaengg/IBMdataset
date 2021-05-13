@@ -1,0 +1,6 @@
+def solve():
+    p, q, r = map(int, input().split())
+    print(min(p+q, q+r, p+r))
+
+if __name__ == '__main__':
+    solve()

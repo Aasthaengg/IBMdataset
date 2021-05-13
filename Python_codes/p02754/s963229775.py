@@ -1,0 +1,5 @@
+N,A,B = map(int,input().split())
+M = N//(A+B)
+nokori = N%(A+B)
+ans = M*A+ min(A,nokori)
+print(ans)

@@ -1,0 +1,19 @@
+a,b,k = map(int,input().split())
+
+for i in range(k):
+    if i % 2 == 0:
+        if a % 2 == 0:
+            pass
+        else:
+            a = a - 1
+        b = b + (a // 2)
+        a = a // 2
+    else:
+        if b % 2 == 0:
+            pass
+        else:
+            b = b - 1
+        a = a + (b // 2)
+        b = b // 2
+
+print(a,b)

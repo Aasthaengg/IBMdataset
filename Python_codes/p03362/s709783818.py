@@ -1,0 +1,10 @@
+n = int(input())
+P, A = [2], []
+for L in range(3, 55556, 2):
+  if len(A) == n:
+    break
+  if all(L % M for M in P):
+    P += L,
+    if L % 5 == 1:
+      A += L,
+print(*A)

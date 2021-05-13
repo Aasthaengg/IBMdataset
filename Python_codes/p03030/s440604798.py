@@ -1,0 +1,10 @@
+N = int(input())
+ 
+city = []
+for i in range(N):
+    s, p = input().split()
+    city.append([s, int(p), i+1])
+city.sort(key=lambda city: (city[0], -city[1]))
+ 
+for i in city:
+    print(i[2])

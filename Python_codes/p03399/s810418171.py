@@ -1,0 +1,1 @@
+print eval('+min(%s)'%('input(),'*2)*2)

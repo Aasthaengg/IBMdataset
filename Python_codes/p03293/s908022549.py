@@ -1,0 +1,1 @@
+print('NYoe s'[input() in input()*2::2])

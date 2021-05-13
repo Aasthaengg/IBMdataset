@@ -1,0 +1,5 @@
+n=int(input())
+a=input()
+b=input()
+c=input()
+print( sum( len( set( (a[i],b[i],c[i])) )-1 for i in range(n) ) )  

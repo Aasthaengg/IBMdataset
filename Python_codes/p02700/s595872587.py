@@ -1,0 +1,12 @@
+x,y,z,w=map(int,input().split())
+while(1):
+    if(z>0):
+        z-=y
+    if(z<=0):
+        print("Yes")
+        exit()
+    if(x>0):
+        x=x-w
+    if(x<=0):
+        print("No")
+        exit()

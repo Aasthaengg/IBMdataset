@@ -1,0 +1,2 @@
+n,*a = map(int,open(0).read().split())
+print("first" if any((i%2 == 1 for i in a)) else "second")

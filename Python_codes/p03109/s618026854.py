@@ -1,0 +1,1 @@
+print('TBD'*(input()[5:7]>'04')or'Heisei')

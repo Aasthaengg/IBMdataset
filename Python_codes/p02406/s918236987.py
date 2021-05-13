@@ -1,0 +1,1 @@
+print " "+" ".join(map(str,filter(lambda n:n%3==0 or '3' in str(n),range(1,input()+1))))

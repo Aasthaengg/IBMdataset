@@ -1,0 +1,1 @@
+print(' Eve'*(25-int(input('Christmas'))))

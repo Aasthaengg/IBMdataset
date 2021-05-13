@@ -1,0 +1,1 @@
+s=input();print("YNEOS"[any(x not in s for x in"1479")::2])

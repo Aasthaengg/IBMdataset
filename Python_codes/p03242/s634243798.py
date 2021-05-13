@@ -1,0 +1,1 @@
+print(''.join('1'if X=='9'else'9'for X in input()))

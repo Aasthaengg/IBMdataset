@@ -1,0 +1,1 @@
+a,b=map(int,input().split());c=[a,b,a-1,b-1];c.sort();print(sum(c[-2:]))

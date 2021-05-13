@@ -1,0 +1,10 @@
+# from collections import Counter, defaultdict
+# n = int(input())
+# li = list(map(int, input().split()))
+# n = int(input())
+# a, b, c = map(int, input().split())
+# d = defaultdict(lambda: 0)
+s = set([1, 2, 3])
+s.discard(int(input()))
+s.discard(int(input()))
+print(*s)

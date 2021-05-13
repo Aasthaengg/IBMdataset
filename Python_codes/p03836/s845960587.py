@@ -1,0 +1,16 @@
+sx,sy,gx,gy = list(map(int,input().split()))
+dx,dy=gx-sx,gy-sy
+out = []
+out.append("R"*dx)
+out.append("U"*dy)
+out.append("L"*dx)
+out.append("D"*dy)
+out.append("D")
+out.append("R"*(dx+1))
+out.append("U"*(dy+1))
+out.append("L")
+out.append("U")
+out.append("L"*(dx+1))
+out.append("D"*(dy+1))
+out.append("R")
+print("".join(out))

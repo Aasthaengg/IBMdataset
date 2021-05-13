@@ -1,0 +1,1 @@
+print 'Hello World' if int(raw_input()) == 1 else (int(raw_input())+int(raw_input()))

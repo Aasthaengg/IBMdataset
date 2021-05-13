@@ -1,0 +1,5 @@
+a,b,c=input().split()
+n=len(a)
+m=len(b)
+if a[n-1]==b[0] and b[m-1]==c[0]:print('YES')
+else:print('NO')

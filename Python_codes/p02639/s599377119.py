@@ -1,0 +1,1 @@
+print([int(i) for i in input().split()].index(0) + 1)

@@ -1,0 +1,6 @@
+s = input()
+t = s.replace('P?', 'PD')
+u = t.replace('?D', 'PD')
+v = u.replace('??', 'PD')
+w = v.replace('?', 'D')
+print(w)

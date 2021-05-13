@@ -1,0 +1,1 @@
+i,p=int,input;print((i(p())+i(p()))*i(p())//2)

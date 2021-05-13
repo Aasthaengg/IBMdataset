@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+
+	n = int(input())
+
+	if n % 1000 == 0:
+		ans = 0
+	else:
+		ans = 1000 - (n % 1000)
+	print(ans)
+

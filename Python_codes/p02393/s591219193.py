@@ -1,0 +1,5 @@
+in_str = input().split(" ")
+in_int = sorted(list(map(int, in_str)))
+in_sstr = list(map(str, in_int))
+tes = " ".join(in_sstr)
+print(tes)

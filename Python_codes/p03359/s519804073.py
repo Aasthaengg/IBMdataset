@@ -1,0 +1,1 @@
+a,b=map(int,input().split());print([max(1,a-1),a][b>=5])

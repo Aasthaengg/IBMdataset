@@ -1,0 +1,8 @@
+a,b,c = map(int,input().split())
+a1 = abs(b-a)+abs(c-b)
+a2 = abs(c-a) + abs(b-c)
+b1 = abs(a-b) + abs(c-a)
+b2 = abs(b-c) + abs(a-c)
+c1 = abs(c-a) + abs(b-a)
+c2 = abs(c-b) + abs(a-b)
+print(min(a1,a2,b1,b2,c1,c2))

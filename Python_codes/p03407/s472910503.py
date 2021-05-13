@@ -1,0 +1,1 @@
+*a,b=map(int,input().split());print('NYoe s'[sum(a)>=b::2])

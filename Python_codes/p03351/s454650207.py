@@ -1,0 +1,1 @@
+print('YNeos'[input()[-1]in'29'::2])

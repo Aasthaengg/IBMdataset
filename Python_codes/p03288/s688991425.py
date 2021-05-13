@@ -1,0 +1,1 @@
+r=int(input());print([['AGC','ARC'][r<2800],'ABC'][r<1200])

@@ -1,0 +1,1 @@
+for x in reduce(lambda x, y: [x * y, (x + y) * 2], map(int, raw_input().split())): print x,

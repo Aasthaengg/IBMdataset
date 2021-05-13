@@ -1,0 +1,5 @@
+N=int(input())
+s=input()
+k=s.count("R")
+o=s.count("B")
+print("Yes"if k>o else "No")

@@ -1,0 +1,5 @@
+a,b = map(str,raw_input().split())
+d = int(a)/int(b)
+r = int(a)%int(b)
+f = float(a)/float(b)
+print "%d %d %0.5f" %(d,r,f)

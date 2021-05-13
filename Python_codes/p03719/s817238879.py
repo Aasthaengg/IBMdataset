@@ -1,0 +1,1 @@
+print("YNeos"[not(lambda x,y,z:x<=z<=y)(*map(int,input().split()))::2])

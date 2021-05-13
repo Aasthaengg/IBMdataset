@@ -1,0 +1,1 @@
+n=input();print(n if len(n)<3 else n[::-1])

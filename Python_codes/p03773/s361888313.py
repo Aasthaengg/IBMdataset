@@ -1,0 +1,1 @@
+print(sum([int(tok) for tok in input().split()]) % 24)

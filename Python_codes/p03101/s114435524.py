@@ -1,0 +1,8 @@
+x = input().split()
+y = input().split()
+H = int(x[0])
+W = int(x[1])
+h = int(y[0])
+w = int(y[1])
+white = (H * W) - ((h*W) + (w*H) - (h*w))
+print(white)

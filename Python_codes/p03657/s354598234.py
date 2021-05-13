@@ -1,0 +1,1 @@
+a,b=map(int,input().split());print(["Imp","P"][a*b*(a+b)%3==0]+"ossible")

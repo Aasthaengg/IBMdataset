@@ -1,0 +1,1 @@
+n,l=open(0);print('Four'if len(set(l.split()))==4 else'Three')

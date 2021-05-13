@@ -1,0 +1,1 @@
+n,m,d=map(int,input().split());print((m-1)/(n*n)*[n,2*(n-d)][d>0])

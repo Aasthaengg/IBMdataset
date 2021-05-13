@@ -1,0 +1,7 @@
+n = int(input())
+a, b = map(int, input().split())
+P = list(map(int, input().split()))
+p1 = len(list(filter(lambda x: x <= a, P)))
+p2 = len(list(filter(lambda x: a+1 <= x <= b, P)))
+p3 = len(list(filter(lambda x: x >= b+1, P)))
+print(min(p1, p2, p3))

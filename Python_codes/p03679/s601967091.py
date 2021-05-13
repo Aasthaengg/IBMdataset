@@ -1,0 +1,1 @@
+X,A,B=map(int,input().split());print(['ddealnigceiroouuss'[A-B<0::2],'safe'][X+A>=B>A])

@@ -1,0 +1,1 @@
+print('NYoe s'[eval(input()+'%500<='+input())::2])

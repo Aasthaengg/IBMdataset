@@ -1,0 +1,1 @@
+N,*A=map(int,open(0).read().split());print(min([[i,abs(v-sum(A)/N)] for i,v in enumerate(A)],key=lambda x:x[1])[0])

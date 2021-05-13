@@ -1,0 +1,5 @@
+n, k = map(int, input().split())
+s = input()
+l = sum([i.count('L')-1 for i in s.split('R') if i.count('L') >= 2])
+r = sum([i.count('R')-1 for i in s.split('L') if i.count('R') >= 2])
+print(min(l+r+2*k, n-1))

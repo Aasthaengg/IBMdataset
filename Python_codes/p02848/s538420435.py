@@ -1,0 +1,1 @@
+n=int(input());print(*[chr(ord(i)+n) if ord(i)+n<=90 else chr(ord(i)+n-26) for i in input()],sep='')

@@ -1,0 +1,1 @@
+for i in range(input()): a=sorted(map(int,raw_input().split()));a=[i**2 for i in a];print "YES" if a[0]+a[1]==a[2] else "NO"

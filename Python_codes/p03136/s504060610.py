@@ -1,0 +1,5 @@
+N=int(input())
+L=list(map(int,input().split()))
+L.sort(key=int)
+ans= L.pop(-1)<sum(L)
+print('Yes' if ans else 'No')

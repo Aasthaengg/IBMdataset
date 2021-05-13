@@ -1,0 +1,12 @@
+x,y,z=map(int,input().split())
+k=int(input())
+while(x>=y):
+    y*=2
+    k-=1
+while(y>=z):
+    z*=2
+    k-=1
+if(k>=0):
+    print("Yes")
+else:
+    print("No")

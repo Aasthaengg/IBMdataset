@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+n, m = list(map(int, input().split()))
+c = list(map(int, input().split()))
+DP = {}
+for i in range(n + 1):
+	DP[i] = n
+DP[0] = 0
+for cost in c:
+	for i in range(cost, n + 1):
+		DP[i] = min(DP[i], DP[i - cost] + 1)
+print(DP[n])
+

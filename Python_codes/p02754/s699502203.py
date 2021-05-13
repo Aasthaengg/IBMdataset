@@ -1,0 +1,1 @@
+n,b,r=map(int,input().split());c=b+r;print((n//c)*b+min(b,n%c))

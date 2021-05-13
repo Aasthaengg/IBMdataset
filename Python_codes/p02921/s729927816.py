@@ -1,0 +1,1 @@
+print(sum([1 for s,t in zip(input(),input()) if s==t]))

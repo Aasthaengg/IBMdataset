@@ -1,0 +1,5 @@
+import sys
+def LI(): return list(map(int,sys.stdin.readline().rstrip().split()))
+A,B = LI()
+ans = A+B
+print('error' if ans>=10 else ans)

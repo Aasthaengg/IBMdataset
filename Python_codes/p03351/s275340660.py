@@ -1,0 +1,5 @@
+a,b,c,d=map(int, input().split())
+AB=int(abs(b-a)<=d)
+BC=int(abs(c-b)<=d)
+AC=int(abs(c-a)<=d)
+print('YNeos'[not(AC or (AB and BC))::2])

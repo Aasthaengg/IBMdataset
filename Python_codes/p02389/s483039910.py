@@ -1,0 +1,7 @@
+s = input()
+x = s.split()
+
+a = int(x[0])
+b = int(x[1])
+
+print(a*b,2*(a+b))

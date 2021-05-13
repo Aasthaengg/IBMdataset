@@ -1,0 +1,5 @@
+n = list(map(int,list(input())))
+num = len(n)
+ans = sum(n)
+ans = max(ans,9*(num-1)+n[0]-1)
+print(ans)

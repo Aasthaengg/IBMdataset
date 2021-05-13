@@ -1,0 +1,1 @@
+print(":("if max(map(int,input().split()))>8 else "Yay!")

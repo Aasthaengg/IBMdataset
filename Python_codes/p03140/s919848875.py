@@ -1,0 +1,5 @@
+N=int(input())
+A=input()
+B=input()
+C=input()
+print(sum([0 if A[i]==B[i]==C[i] else 2 if A[i]!=B[i]!=C[i]!=A[i] else 1 for i in range(N)]))

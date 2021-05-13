@@ -1,0 +1,9 @@
+x,y,nr,ng,nm=map(int,input().split())
+r=list(map(int,input().split()))
+g=list(map(int,input().split()))
+m=list(map(int,input().split()))
+r.sort(reverse=True)
+g.sort(reverse=True)
+a=r[:x]+g[:y]+m
+a.sort(reverse=True)
+print(sum(a[:x+y]))

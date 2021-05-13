@@ -1,0 +1,1 @@
+N,A=open(0);print(sum(map(int,A.split()))-int(N))

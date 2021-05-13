@@ -1,0 +1,15 @@
+x1,y1,x2,y2=map(int,input().split())
+ans=""
+ans+="U"*(y2-y1)
+ans+="R"*(x2-x1)
+ans+="D"*(y2-y1)
+ans+="L"*(x2-x1)
+ans+="L"
+ans+="U"*(y2+1-y1)
+ans+="R"*(x2+1-x1)
+ans+="D"
+ans+="R"
+ans+="D"*(y2+1-y1)
+ans+="L"*(x2+1-x1)
+ans+="U"
+print(ans)

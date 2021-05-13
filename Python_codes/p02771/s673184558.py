@@ -1,0 +1,1 @@
+print("NYoe s"[len({*(input())})==3::2])

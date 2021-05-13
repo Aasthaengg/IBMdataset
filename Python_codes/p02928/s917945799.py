@@ -1,0 +1,24 @@
+import numpy as np
+n, k=map(int, input().split())
+a=list(map(int, input().split()))
+
+npr=np.zeros(max(a)+1)
+for i in a:
+    npr[i:] += 1
+
+ruiseki=list(npr)
+sm1=0
+for i in a:
+    sm1 += ruiseki[i-1]
+
+ans1=(((k*(k-1))//2)%(10**9+7))*sm1
+
+sm2=0
+for i in a:
+    sm2 += npr[i-1]
+    npr[i:] -= 1
+
+ans2=(sm2*k)%(10**9+7)
+
+ans=(ans1+ans2)%(10**9+7)
+print(int(ans))

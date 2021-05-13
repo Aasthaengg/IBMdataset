@@ -1,0 +1,1 @@
+n,k=map(int,input().split());print(sum(n//i*(i-k)+n%i-min(max(k-1,0),n%i)for i in range(k+1,n+1)))

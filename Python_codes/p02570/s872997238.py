@@ -1,0 +1,6 @@
+lst = input()
+lst = lst.strip().split()
+D=int(lst[0])
+T=int(lst[1])
+S=int(lst[2])
+print("Yes") if(D/S)<=T else print("No")

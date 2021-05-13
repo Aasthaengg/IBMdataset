@@ -1,0 +1,1 @@
+x=eval(input().replace(' ','+'));print(x%24)

@@ -1,0 +1,10 @@
+n=int(input())
+
+fib=[0]*(n+1)
+fib[0]=1
+fib[1]=1
+
+for ni in range(2,n+1):
+    fib[ni]=fib[ni-1]+fib[ni-2]
+    
+print(fib[n])

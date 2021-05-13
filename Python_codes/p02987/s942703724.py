@@ -1,0 +1,1 @@
+s=input();print('NYoe s'[[s.count(i)==2 for i in s] and len(set(s))==2::2])

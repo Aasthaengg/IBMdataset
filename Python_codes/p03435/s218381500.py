@@ -1,0 +1,5 @@
+m=lambda:map(int,input().split())
+a,b,c=m()
+d,e,f=m()
+g,h,i=m()
+print(['No','Yes'][d-a==e-b==f-c and g-a==h-b==i-c])

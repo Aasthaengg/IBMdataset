@@ -1,0 +1,5 @@
+s = input()
+a = s.index('A')
+z = s[::-1].index('Z')
+l= len(s)
+print(l-z-a)

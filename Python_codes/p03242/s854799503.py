@@ -1,0 +1,1 @@
+print(input().replace('1', 'x').replace('9', 'y').replace('x', '9').replace('y', '1'))

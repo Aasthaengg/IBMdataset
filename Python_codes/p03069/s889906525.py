@@ -1,0 +1,31 @@
+import sys
+import math  # noqa
+import bisect  # noqa
+import queue  # noqa
+
+
+def input():
+    return sys.stdin.readline().rstrip()
+
+
+def main():
+    _ = int(input())
+    S = input()
+
+    if len(set(S)) == 1:
+        return print(0)
+
+    w = S.count('.')
+    b = 0
+    ans = w
+    for s in S:
+        if s == '#':
+            b += 1
+        else:
+            w -= 1
+        ans = min(ans, b + w)
+    print(ans)
+
+
+if __name__ == '__main__':
+    main()

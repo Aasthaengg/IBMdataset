@@ -1,0 +1,1 @@
+print('ABC'*(len(input())<4)or'ABD')

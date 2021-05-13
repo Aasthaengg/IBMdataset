@@ -1,0 +1,14 @@
+n = int(input())
+total = []
+
+for i in range(1, n + 1):
+    if i % 15 == 0:
+        "FizzBuzz"
+    elif i % 3 == 0:
+        "Fizz"
+    elif i % 5 == 0:
+        "Buzz"
+    else:
+        total.append(i)
+
+print(sum(total))

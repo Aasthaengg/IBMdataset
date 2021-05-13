@@ -1,0 +1,1 @@
+n,m,d=map(int,input().split());print((2 if d != 0 else 1)*(n-d)*(m-2+1)/n**2)

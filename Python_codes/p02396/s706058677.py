@@ -1,0 +1,9 @@
+#coding:UTF-8
+
+i = 0
+while True:
+    i += 1
+    x = input()
+    if x == 0:
+        break
+    print "Case",str(i)+":",x

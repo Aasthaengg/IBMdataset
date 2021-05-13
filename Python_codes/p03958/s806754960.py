@@ -1,0 +1,5 @@
+k, t = map(int,input().split())
+a = list(map(int,input().split()))
+a.sort()
+ans = a[-1] - sum(a[:-1])
+print(ans - 1 if ans > 0 else 0)

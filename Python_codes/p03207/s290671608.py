@@ -1,0 +1,1 @@
+n,*l=map(int,open(0));l.sort();l[-1]=l[-1]//2;print(sum(l))

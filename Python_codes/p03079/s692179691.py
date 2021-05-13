@@ -1,0 +1,1 @@
+print('No'if~-len(set(input().split()))else'Yes')

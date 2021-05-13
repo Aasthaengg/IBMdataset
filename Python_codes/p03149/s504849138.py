@@ -1,0 +1,1 @@
+print("YNEOS"[int("".join(map(str,sorted(map(int, input().split())))))!=1479::2])

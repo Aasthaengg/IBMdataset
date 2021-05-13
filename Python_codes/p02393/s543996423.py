@@ -1,0 +1,19 @@
+# coding:utf-8
+# abc?????????????????????
+
+abc = raw_input().split()
+
+a = int(abc[0])
+b = int(abc[1])
+c = int(abc[2])
+
+if b < a:
+    a,b = b,a
+
+if c < b:
+    c,b = b,c
+
+if b < a:
+    a,b = b,a
+
+print a,b,c

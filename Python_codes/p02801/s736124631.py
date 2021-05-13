@@ -1,0 +1,1 @@
+print(__import__('string').ascii_lowercase[ord(input())-ord('a')+1])

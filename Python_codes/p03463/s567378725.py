@@ -1,0 +1,1 @@
+a=list(map(int, input().split()));print("ABloircyes"[(a[2]-a[1])%2::2])

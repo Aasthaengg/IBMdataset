@@ -1,0 +1,6 @@
+a = list(map(int,input().split()))
+x = max(a)
+y = min(a)
+a.remove(max(a))
+a.remove(min(a))
+print(y,a[0],x)

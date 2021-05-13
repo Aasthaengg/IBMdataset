@@ -1,0 +1,22 @@
+n=int(input())
+l=list(map(int,input().split()))
+x=0
+y=0
+c=0
+for i in range(n):
+    if(l[i]%4==0):
+        x+=1
+    elif(l[i]%2==0):
+        y+=1
+    else:
+        c+=1
+if(n%2==0):
+    if(x>=c):
+        print("Yes")
+    else:
+        print('No')
+else:
+    if(x>=(c-1)):
+        print("Yes")
+    else:
+        print("No")

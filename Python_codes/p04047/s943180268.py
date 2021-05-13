@@ -1,0 +1,5 @@
+n = int(input())
+skewers = list(map(int,input().split()))
+s = sorted(skewers)
+ans = sum([val for i,val in enumerate(s) if i % 2 == 0])
+print(ans)

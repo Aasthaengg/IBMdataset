@@ -1,0 +1,5 @@
+a,b,c = map(int,input().split())
+d = max(a,b,c)
+e = min(a,b,c)
+f = (a + b + c) - (d + e)
+print(10 * d + e + f)

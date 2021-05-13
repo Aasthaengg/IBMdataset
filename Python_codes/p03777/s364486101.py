@@ -1,0 +1,5 @@
+a, b = map(str, input().split())
+if a == 'H' and b == 'H': print('H')
+elif a == 'H': print('D')
+elif b == 'H': print('D')
+else: print('H')

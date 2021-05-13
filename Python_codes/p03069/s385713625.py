@@ -1,0 +1,1 @@
+from itertools import*;input();s=input();print(min(map(sum,zip(*[list(accumulate([0]+list(map(int,s.translate(str.maketrans("#.","10"[::p]))))[::p]))[::p]for p in[1,-1]]))))

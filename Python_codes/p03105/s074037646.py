@@ -1,0 +1,1 @@
+a,b,c=map(int,input().split());r=b//a;print(c if r>c else r)

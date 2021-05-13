@@ -1,0 +1,9 @@
+nums = input().split()
+a = int(nums[0])
+b = int(nums[1])
+c = int(nums[2])
+
+if a < b < c:
+  print('Yes')
+else:
+  print('No')

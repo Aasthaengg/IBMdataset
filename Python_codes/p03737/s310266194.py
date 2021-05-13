@@ -1,0 +1,5 @@
+x=list(input().split())
+y=x[0].upper()
+z=x[1].upper()
+a=x[2].upper()
+print(y[0]+z[0]+a[0])

@@ -1,0 +1,1 @@
+R,G=map(int,open(0));print(2*G-R)

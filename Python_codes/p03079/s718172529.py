@@ -1,0 +1,1 @@
+a,b,c=input().split();print('YNeos'[b!=c::2])

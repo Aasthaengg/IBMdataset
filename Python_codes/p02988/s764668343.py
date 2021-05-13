@@ -1,0 +1,11 @@
+import sys
+
+N = int(sys.stdin.readline())
+P = list(map(int, sys.stdin.readline().split()))
+
+ans = 0
+for i in range(1, N-1):
+    if P[i-1] < P[i] < P[i+1] or P[i-1] > P[i] > P[i+1]:
+        ans += 1
+
+print(ans)

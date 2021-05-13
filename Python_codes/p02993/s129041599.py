@@ -1,0 +1,1 @@
+s=input();print(['Bad','Good'][all([s[i-1]!=s[i] for i in range(1,len(s))])])

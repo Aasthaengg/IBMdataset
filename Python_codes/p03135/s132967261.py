@@ -1,0 +1,1 @@
+print(*[x[0]/x[1] for x in [[float(x) for x in input().split()]]])

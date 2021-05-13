@@ -1,0 +1,1 @@
+k,x=map(int,input().split());print(" ".join([str(x) for x in list(range(x-k+1,x))+list(range(x,x+k))]))

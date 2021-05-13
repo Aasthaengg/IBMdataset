@@ -1,0 +1,1 @@
+print(3**int(input())-2**(sum(~l&1 for l in map(int,input().split()))))

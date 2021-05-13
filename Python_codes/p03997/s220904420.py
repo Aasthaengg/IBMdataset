@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+h= int(input())
+c = (a+b)
+res = int(c*h/2)
+print(res)

@@ -1,0 +1,5 @@
+str=input()
+str=str.split(" ")
+T=float(str[0])
+X=float(str[1])
+print(T/X)

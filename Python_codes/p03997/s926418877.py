@@ -1,0 +1,1 @@
+a,b,c,d=eval('['+'int(input()),'*3+'0]');print((a+b)*c//2)

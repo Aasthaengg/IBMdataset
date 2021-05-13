@@ -1,0 +1,1 @@
+print('NYoe s'[sorted(list(input()))==list('abc')::2])

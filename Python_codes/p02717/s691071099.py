@@ -1,0 +1,6 @@
+def main():
+    xyz = [int(_x) for _x in input().split()]
+    print(xyz[2], xyz[0], xyz[1])
+
+
+main()

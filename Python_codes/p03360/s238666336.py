@@ -1,0 +1,1 @@
+a=sorted(map(int,input().split()));print(a[-1]*(2**(int(input())))+sum(a)-a[-1])

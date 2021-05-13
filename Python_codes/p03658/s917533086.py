@@ -1,0 +1,1 @@
+n, k = map(int, input().split());print(sum(sorted([int(x) for x in input().split()], reverse=True)[:k]))

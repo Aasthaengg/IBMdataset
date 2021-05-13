@@ -1,0 +1,1 @@
+print(-4+list(input()).count("+")*2)

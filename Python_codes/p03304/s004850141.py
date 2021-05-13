@@ -1,0 +1,1 @@
+N,M,D=list(map(int,input().split()));print('{:.10f}'.format(((D!=0)+1)*(N-D)*(M-1)/(N*N)))

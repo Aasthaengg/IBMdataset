@@ -1,0 +1,10 @@
+x1, y1, x2, y2 = map(int, input().split())
+vector = (x2-x1, y2-y1)
+ten3 = (x2 - vector[1], y2 + vector[0])
+ten4 = (x1-vector[1], y1 + vector[0])
+ans = []
+ans.append(ten3[0])
+ans.append(ten3[1])
+ans.append(ten4[0])
+ans.append(ten4[1])
+print(*ans)

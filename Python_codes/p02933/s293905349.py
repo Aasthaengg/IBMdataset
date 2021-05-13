@@ -1,0 +1,1 @@
+a,s=open(0);print(s if int(a)>3199 else 'red')

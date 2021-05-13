@@ -1,0 +1,10 @@
+def main():
+
+    A, B, C = map(int, input().split())
+    s = set([A, B, C])
+    if len(s) == 2:
+        return "Yes"
+    return "No"
+
+if __name__ == '__main__':
+    print(main())

@@ -1,0 +1,1 @@
+print('HTeBiDs e i'[int(input().replace('/',''))>20190430::2])

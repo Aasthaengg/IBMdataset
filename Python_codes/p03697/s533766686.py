@@ -1,0 +1,1 @@
+r=eval(input().replace(" ","+"));print("error" if r>=10 else r)

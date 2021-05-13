@@ -1,0 +1,12 @@
+A,B,C,D=map(int,input().split())
+P='R'*(C-A)
+P+='U'*(D-B)
+P+='L'*(C-A)
+P+='D'*(D-B+1)
+P+='R'*(C-A+1)
+P+='U'*(D-B+1)
+P+='L'
+P+='U'
+P+='L'*(C-A+1)
+P+='D'*(D-B+1)
+print(P+'R')

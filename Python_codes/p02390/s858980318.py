@@ -1,0 +1,7 @@
+s = input()
+s = int (s)
+m = int (s/60)
+s = int (s%60)
+h = int (m/60)
+m = int(m%60)
+print( "{}:{}:{}".format( h, m, s ) )

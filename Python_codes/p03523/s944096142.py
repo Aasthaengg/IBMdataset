@@ -1,0 +1,8 @@
+S=input()
+
+pos={"AKIHABARA","KIHABARA","AKIHBARA","KIHBARA","AKIHABRA","KIHABRA","AKIHBRA","KIHBRA","AKIHABAR","KIHABAR","AKIHBAR","KIHBAR","AKIHABR","KIHABR","AKIHBR","KIHBR"}
+     
+if S in pos:
+  print("YES")
+else:
+  print("NO")

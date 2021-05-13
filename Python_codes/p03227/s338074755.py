@@ -1,0 +1,1 @@
+a = input();print("".join(reversed(a)) if len(a) == 3 else a)

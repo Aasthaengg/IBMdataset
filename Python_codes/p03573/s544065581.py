@@ -1,0 +1,1 @@
+a,b,c=input().split();print(c if a==b else b if a==c else a)

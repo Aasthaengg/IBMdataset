@@ -1,0 +1,3 @@
+C = input()
+al=[chr(ord('a') + i) for i in range(26)]
+print(al[al.index(C)+1])

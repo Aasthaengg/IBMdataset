@@ -1,0 +1,7 @@
+N=int(input())
+if len(str(N))==1:print(N)
+elif len(str(N))==2:print(9)
+elif len(str(N))==3:print(9+N-100+1)
+elif len(str(N))==4:print(9+999-100+1)
+elif len(str(N))==5:print(9+999-100+1+N-10000+1)
+else:print(9+999-100+1+99999-10000+1)

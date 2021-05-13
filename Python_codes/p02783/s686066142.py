@@ -1,0 +1,5 @@
+num,a= input().split()
+#a= int(input())
+num= int (num)
+a= int(a)
+print((int)(num/a)+bool(num%a))

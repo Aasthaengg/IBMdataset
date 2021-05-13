@@ -1,0 +1,8 @@
+r,c = [int(s) for s in input().split(' ')]
+data = [[int(s) for s in input().split(' ')] for i in range(r)]
+[row.append(sum(row)) for row in data]
+T = [[row[i] for row in data] for i in range(c+1)]
+bottom = [sum(t) for t in T]
+data += [bottom]
+data_s = [' '.join([str(i) for i in row]) for row in data]
+[print(row) for row in data_s]

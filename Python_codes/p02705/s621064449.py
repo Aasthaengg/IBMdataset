@@ -1,0 +1,1 @@
+print(eval(input()+'*6.2831'))

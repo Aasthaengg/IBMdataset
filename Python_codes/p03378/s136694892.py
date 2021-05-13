@@ -1,0 +1,5 @@
+n, m, x = map(int, input().split())
+a = list(map(int, input().split()))
+a.append(x)
+a.sort()
+print(min(len(a[:a.index(x)]), len(a[a.index(x)+1:])))

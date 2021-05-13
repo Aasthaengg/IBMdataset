@@ -1,0 +1,1 @@
+print(eval('+'.join(sorted(input().split())[:-1])))

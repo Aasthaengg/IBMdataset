@@ -1,0 +1,13 @@
+N = int(input())
+a = - (10 ** 9 + 3)  # max(x + y)
+b = 10 ** 9 + 3  # min(x + y)
+c = - (10 ** 9 + 3)  # max(x - y)
+d = 10 ** 9 + 3  # min(x - y)
+for i in range(N):
+    x, y = map(int, input().split())
+    a = max(a, x + y)
+    b = min(b, x + y)
+    c = max(c, x - y)
+    d = min(d, x - y)
+ans = max([a - b, c - d])
+print(ans)

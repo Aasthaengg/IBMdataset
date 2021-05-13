@@ -1,0 +1,19 @@
+import sys
+import copy
+import  math
+from _bisect import *
+from collections import *
+from operator import itemgetter
+from math import factorial
+"""
+from fractions import gcd
+def lcm(x, y):
+    return (x * y) // gcd(x, y)
+"""
+stdin = sys.stdin
+ni = lambda: int(ns())
+na = lambda: list(map(int, stdin.readline().split()))
+ns = lambda: stdin.readline()
+
+a, b, c = na()
+print('Yes' if a <= c <= b else 'No')

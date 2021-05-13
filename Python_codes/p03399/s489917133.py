@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+train = list([A, B])
+bus = list([C, D])
+print(min(train)+min(bus))

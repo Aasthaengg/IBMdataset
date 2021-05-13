@@ -1,0 +1,1 @@
+n,m=map(int,input().split());[print(i+1,n-i-((i>=m/2)&~n)) for i in range(m)]

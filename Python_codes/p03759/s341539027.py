@@ -1,0 +1,12 @@
+import sys
+
+input = sys.stdin.readline
+
+
+def main():
+    a, b, c = map(int, input().split())
+    print("YES" if b - a == c - b else "NO")
+
+
+if __name__ == "__main__":
+    main()

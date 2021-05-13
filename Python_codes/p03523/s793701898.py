@@ -1,0 +1,6 @@
+S = input()
+A = ["AKIHABARA", "KIHABARA", "AKIHBARA", "AKIHABRA", "AKIHABAR", "KIHBARA", "KIHABRA", "KIHABAR", "AKIHBRA", "AKIHBAR", "AKIHABR", "KIHBRA", "KIHBAR", "KIHABR", "AKIHBR", "KIHBR"]
+if S in A:
+  print("YES")
+else:
+  print("NO")

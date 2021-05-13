@@ -1,0 +1,5 @@
+s=input()
+a=s.count('a')
+b=s.count('b')
+c=s.count('c')
+print('YES' if abs(a-b)<2 and abs(a-c)<2 and abs(c-b)<2 else 'NO')

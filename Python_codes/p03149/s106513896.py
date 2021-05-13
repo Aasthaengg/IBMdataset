@@ -1,0 +1,1 @@
+print("YNEOS"[set(map(int,input().split()))!={1,7,9,4}::2])

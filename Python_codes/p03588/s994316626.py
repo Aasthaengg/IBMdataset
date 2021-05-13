@@ -1,0 +1,1 @@
+print(sum(sorted([[int(i) for i in input().split()] for _ in range(int(input()))], key=lambda x: x[1])[0]))

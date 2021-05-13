@@ -1,0 +1,14 @@
+w = input().upper()
+ans = 0
+
+while True:
+  s = input()
+
+  if s == "END_OF_TEXT":
+    break
+
+  s = s.upper().split()
+
+  ans += s.count(w)
+
+print(ans)

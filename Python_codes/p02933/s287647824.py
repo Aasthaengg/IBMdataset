@@ -1,0 +1,1 @@
+print(input() if input()>='3200' else 'red')

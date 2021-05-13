@@ -1,0 +1,6 @@
+S = input()
+A = S.count('a')
+B = S.count('b')
+C = S.count('c')
+# print(A, B, C)
+print('YES' if A == B == C or max(A, B, C) - min(A, B, C) == 1 else 'NO')

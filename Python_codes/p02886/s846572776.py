@@ -1,0 +1,5 @@
+N = int(input())
+A = list(map(int, input().split()))
+p = sum(A)
+q = sum([a * a for a in A])
+print((p*p-q)//2)

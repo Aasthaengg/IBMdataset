@@ -1,0 +1,29 @@
+import sys
+import itertools
+# import numpy as np
+import time
+import math
+import heapq
+from collections import defaultdict
+sys.setrecursionlimit(10 ** 7)
+ 
+INF = 10 ** 18
+MOD = 10 ** 9 + 7
+read = sys.stdin.buffer.read
+readline = sys.stdin.buffer.readline
+readlines = sys.stdin.buffer.readlines
+
+# map(int, input().split())
+
+N, A, B, C = map(int, input().split())
+l = [int(input()) for _ in range(N)]
+
+def dfs(cur, a, b, c):
+    if cur == N:
+        return abs(a - A) + abs(b - B) + abs(c - C) - 30 if min(a, b, c) > 0 else INF
+    res = dfs(cur + 1, a, b, c)
+    res = min(res, dfs(cur + 1, a + l[cur], b, c) + 10)
+    res = min(res, dfs(cur + 1, a, b + l[cur], c) + 10)
+    res = min(res, dfs(cur + 1, a, b, c + l[cur]) + 10)
+    return res
+print(dfs(0, 0, 0, 0))

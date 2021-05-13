@@ -1,0 +1,1 @@
+print(24-int(raw_input()) + 24)

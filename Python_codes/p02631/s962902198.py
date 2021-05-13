@@ -1,0 +1,12 @@
+n = int(input())
+a = list(map(int, input().split()))
+
+s = 0
+
+for i in range(n):
+    s ^= a[i]
+
+for i in range(n):
+    a[i] ^= s
+    print(a[i], end=" ")
+

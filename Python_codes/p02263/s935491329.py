@@ -1,0 +1,1 @@
+print((lambda s:[s.append(str(eval(s.pop(-2)+c+s.pop())) if c in "+-*" else c)or s[-1]for c in input().split()][-1])([0]))

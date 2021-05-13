@@ -1,0 +1,1 @@
+N,K=int(input()),int(input());print(sum([i*2 if (i*2<(K-i)*2) else ((K-i)*2) for i in list(map(int,input().split()))]))

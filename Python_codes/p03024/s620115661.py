@@ -1,0 +1,1 @@
+print(["NO","YES"][input().count("x")<8])

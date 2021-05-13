@@ -1,0 +1,8 @@
+n = int(input())
+a, b = map(int, input().split())
+li = list(map(int, input().split()))
+li.sort()
+x = len([i for i in li if i <= a])
+y = len([i for i in li if a < i <= b])
+z = len([i for i in li if b < i])
+print(min(x, y, z))

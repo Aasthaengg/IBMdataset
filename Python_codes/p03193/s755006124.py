@@ -1,0 +1,1 @@
+n,h,w,*c=map(int,open(0).read().split());print(sum((a>=h)&(b>=w)for a,b in zip(c[::2],c[1::2])))

@@ -1,0 +1,7 @@
+s=input()
+ans=700
+for i in s:
+    if i=='o':
+        ans=ans+100
+
+print(ans)

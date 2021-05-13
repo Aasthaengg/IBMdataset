@@ -1,0 +1,3 @@
+N = list(input())
+ans = N.count("2")
+print(ans)

@@ -1,0 +1,5 @@
+R = input()
+G = input()
+R = int(R)
+G = int(G)
+print ( 2*G - R)

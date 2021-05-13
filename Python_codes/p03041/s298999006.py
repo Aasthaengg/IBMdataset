@@ -1,0 +1,7 @@
+data=input().split()
+N=int(data[0])
+K=int(data[1])
+S=input()
+s=list(S)
+s[K-1]=S[K-1].lower()
+print("".join(s))

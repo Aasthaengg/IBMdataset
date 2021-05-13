@@ -1,0 +1,11 @@
+x=1
+y=1
+while True :
+	x,y=map(int, input().split(" "))
+	if x==0 and y==0 :
+		break
+	if y<x :
+		k=x
+		x=y
+		y=k
+	print(x,y)

@@ -1,0 +1,1 @@
+n,*L=map(int,open(0).read().split());print(sum(L[L[i]-1]==i+1for i in range(n))//2)

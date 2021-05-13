@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+b = sum(map(int, input().split()))
+c = list(map(int, input().split()))
+print(b + sum([ c[i - 1] for i, j in zip(a, a[1:]) if i + 1 == j ]))

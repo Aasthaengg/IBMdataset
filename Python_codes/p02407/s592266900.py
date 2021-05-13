@@ -1,0 +1,3 @@
+_, *A = map(int, open(0).read().split())
+A.reverse()
+print(*A)

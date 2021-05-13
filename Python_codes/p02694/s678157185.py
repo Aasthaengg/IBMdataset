@@ -1,0 +1,9 @@
+x=int(input())
+c=0
+d=100
+while(1):
+    d+=d//100
+    c+=1
+    if(d>=x):
+        break
+print(c)

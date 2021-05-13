@@ -1,0 +1,1 @@
+print(sum(list(map(lambda n: int(n), input().split(" ")))) % 24)

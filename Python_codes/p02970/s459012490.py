@@ -1,0 +1,2 @@
+N, D = [int(s) for s in input().split()]
+print(N // ( 2 * D + 1) + ( N % ( 2 * D + 1 ) != 0))

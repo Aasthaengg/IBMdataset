@@ -1,0 +1,1 @@
+n=list(map(int,input().split()));print(min([n[i]+n[j] for i in range(3) for j in range(i+1,3)]))

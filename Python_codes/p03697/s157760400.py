@@ -1,0 +1,1 @@
+n=sum(list(map(int,input().split())));print([n,'error'][n>=10])

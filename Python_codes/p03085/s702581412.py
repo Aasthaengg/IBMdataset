@@ -1,0 +1,5 @@
+b=input()
+if b=='A': print("T")
+if b=="G": print("C")
+if b=="C": print("G")
+if b=="T": print("A")

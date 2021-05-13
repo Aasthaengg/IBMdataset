@@ -1,0 +1,5 @@
+input()
+s=set(raw_input().split())
+input()
+t=set(raw_input().split())
+print len(s&t)

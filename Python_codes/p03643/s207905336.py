@@ -1,0 +1,9 @@
+import sys
+import math
+import bisect
+
+def main():
+    print('ABC' + input())
+    
+if __name__ == "__main__":
+    main()

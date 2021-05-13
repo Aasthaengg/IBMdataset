@@ -1,0 +1,1 @@
+x,a,b=map(int,input().split());print('A'*(abs(a-x)<abs(b-x))or'B')

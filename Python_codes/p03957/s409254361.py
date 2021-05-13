@@ -1,0 +1,1 @@
+print('Yes' if 'CF' in ''.join([_ for _ in input() if _=='C' or _=='F']) else 'No')

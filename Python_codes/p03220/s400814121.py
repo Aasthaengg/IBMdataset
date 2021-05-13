@@ -1,0 +1,1 @@
+n=int(input());t,a=map(int,input().split());h=[abs(a-(t-i*0.006)) for i in list(map(int,input().split()))];print(h.index(min(h))+1)

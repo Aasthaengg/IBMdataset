@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int,input().split()))
+ave_a = sum(a)/len(a)
+diff = list(map(lambda x:abs(x-ave_a),a))
+print(diff.index(min(diff)))

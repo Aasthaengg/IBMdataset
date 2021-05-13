@@ -1,0 +1,1 @@
+print(input().replace("9","n").replace("1","o").replace("o","9").replace("n","1"))

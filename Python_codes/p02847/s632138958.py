@@ -1,0 +1,1 @@
+print(-sum(map(ord,input()))**236%6133%8)

@@ -1,0 +1,1 @@
+print("".join(map(lambda string: string[0], input().split())))

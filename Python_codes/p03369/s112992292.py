@@ -1,0 +1,1 @@
+print(sum([ i == 'o' for i in input() ]) * 100 + 700)

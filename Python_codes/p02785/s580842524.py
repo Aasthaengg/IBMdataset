@@ -1,0 +1,5 @@
+h, k = map(int, input().split())
+a = list(map(int, input().split()))
+b = sorted(a, reverse=True)
+ans = sum(b[k:])
+print(ans)

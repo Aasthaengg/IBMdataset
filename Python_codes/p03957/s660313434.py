@@ -1,0 +1,1 @@
+s=input();print("Yes" if "C" in s and "F" in s and s.index("C")<len(s)-s[::-1].index("F")-1 else "No")

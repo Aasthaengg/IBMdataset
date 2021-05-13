@@ -1,0 +1,1 @@
+n=int(input());r=input().count('R');print('Yes'if r>n//2 else'No')

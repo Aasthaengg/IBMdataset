@@ -1,0 +1,1 @@
+print(len([x for x in map(set, zip(input(), 'CODEFESTIVAL2016')) if len(x) == 2]))

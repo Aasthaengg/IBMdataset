@@ -1,0 +1,1 @@
+i=input;n,m=map(int,i().split());g=m-max(a*n%m for a in range(m));print([n*m//g,-1][i()[::n//g]!=i()[::m//g]])

@@ -1,0 +1,6 @@
+first=input()
+(N, i)=first.split()
+N=int(N)
+i=int(i)
+answer=N-(i-1)
+print(answer)

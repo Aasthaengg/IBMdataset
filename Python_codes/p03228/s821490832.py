@@ -1,0 +1,21 @@
+x,y,k = map(int,input().split(" "))
+p=1
+while(k!=0):
+	k=k-1
+	if(p==1):
+		p=2
+		if(x%2==0):
+			y+=x//2
+			x=x//2
+		else:
+			y+=(x-1)//2
+			x=(x-1)//2
+	else:
+		p=1
+		if(y%2==0):
+			x+=y//2
+			y=y//2
+		else:
+			x+=(y-1)//2
+			y=(y-1)//2
+print(x,y)

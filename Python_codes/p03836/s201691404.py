@@ -1,0 +1,14 @@
+sx,sy,tx,ty = map(int,input().split())
+S = []
+S += "U"*(ty - sy),
+S += "R"*(tx - sx),
+S += "D"*(ty - sy),
+S += "L"*(tx - sx + 1),
+S += "U"*(ty - sy + 1),
+S += "R"*(tx - sx + 1),
+S += "D",
+S += "R",
+S += "D"*(ty - sy + 1),
+S += "L"*(tx - sx + 1),
+S += "U"
+print(*S, sep = "")

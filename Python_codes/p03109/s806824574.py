@@ -1,0 +1,1 @@
+print(['Heisei','TBD'][int(input()[5:7])>4])

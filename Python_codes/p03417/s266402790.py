@@ -1,0 +1,5 @@
+n,m=map(int,input().split())
+if n*m==1:print(1)
+elif n==1:print(max(m-2,0))
+elif m==1:print(max(n-2,0))
+else:print((n-2)*(m-2))

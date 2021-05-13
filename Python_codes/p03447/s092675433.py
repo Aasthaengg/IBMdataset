@@ -1,0 +1,7 @@
+X = input()
+A = input()
+B = input()
+X = int(X)
+A = int(A)
+B = int(B)
+print((X-A)%B)

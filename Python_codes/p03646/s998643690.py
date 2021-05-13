@@ -1,0 +1,1 @@
+k=int(input());print(50,*[k//50+i+(i+k%50>49)for i in range(50)])

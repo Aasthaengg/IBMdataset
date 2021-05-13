@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+answer = min(a, b) + min(c, d)
+print(answer)

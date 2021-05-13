@@ -1,0 +1,1 @@
+print(sum(0-(si == "-")+(si == "+") for si in input()))

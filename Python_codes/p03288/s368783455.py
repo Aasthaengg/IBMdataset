@@ -1,0 +1,1 @@
+r=int(input());print(["AGC","ARC","ABC"][sum(map(lambda x:r<x,[1200,2800]))])

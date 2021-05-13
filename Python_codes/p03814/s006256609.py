@@ -1,0 +1,6 @@
+s=input()
+st=s.index("A")
+s=list(s)
+s.reverse()
+en=s.index("Z")
+print(len(s)-st-en)

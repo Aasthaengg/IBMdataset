@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+r, c, k = map(int, input().split())
+items = [[0] * (c+1) for _ in range(r+1)]
+for _ in range(k):
+    R, C, V = map(int, input().split())
+    items[R][C] = V
+
+dp0 = [[0] * (c+1) for _ in range(r+1)]
+dp1 = [[0] * (c+1) for _ in range(r+1)]
+dp2 = [[0] * (c+1) for _ in range(r+1)]
+dp3 = [[0] * (c+1) for _ in range(r+1)]
+
+for i in range(1, r+1):
+    for j in range(1, c+1):
+        dp0[i][j] = max(dp0[i][j-1], dp0[i-1][j], dp1[i-1][j], dp2[i-1][j], dp3[i-1][j])
+        dp1[i][j] = max(dp1[i][j-1], dp0[i-1][j] + items[i][j], dp1[i-1][j] + items[i][j], dp2[i-1][j] + items[i][j], dp3[i-1][j] + items[i][j], dp0[i][j-1] + items[i][j])
+        dp2[i][j] = max(dp2[i][j-1], dp1[i][j-1] + items[i][j])
+        dp3[i][j] = max(dp3[i][j-1], dp2[i][j-1] + items[i][j])
+
+ans = max(dp0[r][c], dp1[r][c], dp2[r][c], dp3[r][c])
+print(ans)

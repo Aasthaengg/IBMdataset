@@ -1,0 +1,12 @@
+#coding:utf-8
+#????????¢?????¨??????
+
+import math
+
+r = input()
+pi = math.pi
+
+s = round(r * r * pi, 6)
+c = round(2 * r * pi, 6)
+
+print ("%06.6f" % s), ("%06.6f" % c)

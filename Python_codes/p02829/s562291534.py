@@ -1,0 +1,6 @@
+A = int(input())
+B = int(input())
+s = set([1, 2, 3])
+s.remove(A)
+s.remove(B)
+print(list(s)[0])

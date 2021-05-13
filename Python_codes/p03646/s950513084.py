@@ -1,0 +1,1 @@
+k,s=divmod(int(input()),50);d=50-s;print(50,*[50+k]*s+[d+k-1]*d)

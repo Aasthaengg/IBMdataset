@@ -1,0 +1,6 @@
+a,b = (int(x) for x in input().split())
+
+if (a+b)<24:
+    print(a+b)
+else:
+    print((a+b)%24)

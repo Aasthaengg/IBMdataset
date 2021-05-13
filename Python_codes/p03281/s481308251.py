@@ -1,0 +1,1 @@
+print(len([i for i in range(int(input())) if i+1 in[105,135,165,189,195]]))

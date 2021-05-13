@@ -1,0 +1,1 @@
+s = sum(map(int,input().split()));print(s if s<10else "error")

@@ -1,0 +1,6 @@
+A=input()
+B=input()
+C=input()
+print(A[0],end="")
+print(B[1],end="")
+print(C[2])

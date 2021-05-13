@@ -1,0 +1,3 @@
+a, b = map(int, input().split())
+print(*divmod(a, b), "%.10f" % (a/b))
+

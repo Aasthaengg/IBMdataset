@@ -1,0 +1,6 @@
+s=input()
+n=int(s)
+H=int(n/(60*60))
+M=int((n-H*60*60)/60)
+S=int(n-(H*60*60+M*60))
+print(H,':', M,':', S,sep='')

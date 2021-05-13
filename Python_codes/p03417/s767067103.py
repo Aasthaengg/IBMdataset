@@ -1,0 +1,1 @@
+n,m=map(int,input().split());print([(n-2)*(m-2),n*m-2,1][(n<2)+(m<2)])

@@ -1,0 +1,5 @@
+A,B,C=map(str,input().split())
+a=list(A)
+b=list(B)
+c=list(C)
+print("YES" if a[len(a)-1]==b[0] and b[len(b)-1]==c[0] else "NO")

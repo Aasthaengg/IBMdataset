@@ -1,0 +1,10 @@
+n=int(input())
+li=[input() for _ in range(n)]
+ac=li.count("AC")
+wa=li.count("WA")
+tle=li.count("TLE")
+re=li.count("RE")
+print("AC x "+str(ac))
+print("WA x "+str(wa))
+print("TLE x "+str(tle))
+print("RE x "+str(re))

@@ -1,0 +1,6 @@
+n = int(input())
+a = list(map(int, input().split()))
+m = len([x for x in a if x < 0])
+a = list(map(abs, a))
+a.sort()
+print(sum(a) if m % 2 == 0 else sum(a[1:])-a[0])

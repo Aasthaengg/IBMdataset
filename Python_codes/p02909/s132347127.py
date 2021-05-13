@@ -1,0 +1,1 @@
+w=['Sunny','Cloudy','Rainy'];n=w.index(input());print(w[0 if n==2 else n+1]);

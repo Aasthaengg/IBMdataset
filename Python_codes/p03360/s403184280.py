@@ -1,0 +1,5 @@
+x=list(map(int,input().split()))
+k=int(input())
+x.sort()
+x[-1]=x[-1]*(2**k)
+print(sum(x))

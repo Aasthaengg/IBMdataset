@@ -1,0 +1,1 @@
+n,*a=open(0);print(sum(len(x)-1for x in map(set,zip(*a))))

@@ -1,0 +1,1 @@
+s=input();r=''.join(['MM'if 1<=i<=12 else'YY'for i in list(map(int,(s[:2],s[2:])))]);print(r if r!='MMMM'and r!='YYYY'else ['AMBIGUOUS','NA'][r=='YYYY'])

@@ -1,0 +1,1 @@
+n,h,w,*L=map(int,open(0).read().split());print(sum(h-x<=0<=y-w for x,y in zip(*[iter(L)]*2)))

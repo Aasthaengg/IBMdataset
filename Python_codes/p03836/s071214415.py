@@ -1,0 +1,10 @@
+sx,sy,tx,ty=map(int,input().split())
+x=tx-sx
+y=ty-sy
+ans="R"*x+"U"*y
+ans+="L"*x+"D"*y
+x+=1
+y+=1
+ans+="L"+"U"*y+"R"*x+"D"
+ans+="R"+"D"*y+"L"*x+"U"
+print(ans)

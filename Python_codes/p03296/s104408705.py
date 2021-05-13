@@ -1,0 +1,1 @@
+from itertools import*;input();print(sum(len(list(j))//2for _,j in groupby(input().split())))

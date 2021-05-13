@@ -1,0 +1,27 @@
+# import sys
+# import math #sqrt
+# import decimal
+import queue # queue
+# import bisect
+# import heapq # priolity-queue
+# import time
+# import itertools
+# import collections # deque
+# from operator import itemgetter
+# from fractions import Fraction
+
+mod = int(1e9+7)
+INF = 1<<29
+lINF = 1<<35
+
+def main():
+    n = int(input())
+    ans = 0
+    for i in range(n):
+        l,r = map(int,input().split())
+        ans += r - l + 1
+    print(ans)
+    return
+
+if __name__=='__main__':
+    main()

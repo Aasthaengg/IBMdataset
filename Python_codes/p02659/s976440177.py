@@ -1,0 +1,5 @@
+a,b = input().split()
+a = int(a)
+b_integer = int(b[0])
+b_decimal = int(b[-2]) * 10 + int(b[-1])
+print(a * b_integer + a * b_decimal // 100)

@@ -1,0 +1,33 @@
+import sys
+import random
+test = False
+
+if test == True:
+    seed = 24
+    random.seed(seed)
+    d = 365
+    c = [random.randrange(0, 101) for _ in range(26)]
+    s = [[random.randrange(0, 20001) for _ in range(26)] for _ in range(d)]
+    c_ = ' '.join(map(str, c))
+    s_ = '\n'.join([' '.join(map(str, i)) for i in s])
+    with open('./input.txt', 'w') as f:
+        f.write('\n'.join([str(d), c_, s_]))
+else:
+    d = int(input())
+    c = list(map(int, input().split()))
+    s = [list(map(int, input().split())) for _i in range(d)]
+
+last_days = [-1 for _i in range(26)]
+result = []
+for today in range(d):
+    checker = [s[today][j]-c[j]*(today-last_days[j]) for j in range(26)]
+    x = checker.index(max(checker))
+    last_days[x] = today
+    result.append(x+1)
+
+if test == True:
+    with open('./output.txt', 'w') as f:
+        f.write('\n'.join(map(str, result)))
+else:
+    for i in result:
+        print(i)

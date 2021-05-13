@@ -1,0 +1,5 @@
+n=int(input())
+a=input()
+b=input()
+c=input()
+print(sum([len(set(x))-1 for x in zip(a,b,c)]))

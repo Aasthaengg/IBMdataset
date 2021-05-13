@@ -1,0 +1,1 @@
+A,B=map(int,input().split());print(':Y(a y !'[(A<=8)*(B<=8)::2])

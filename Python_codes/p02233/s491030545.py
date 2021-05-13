@@ -1,0 +1,21 @@
+import sys, math
+from itertools import permutations, combinations
+from collections import defaultdict, Counter, deque
+from math import factorial#, gcd
+from bisect import bisect_left #bisect_left(list, value)
+sys.setrecursionlimit(10**7)
+enu = enumerate
+MOD = 10**9+7
+def input(): return sys.stdin.readline()[:-1]
+def pri(x): print('\n'.join(map(str, x)))
+
+N = int(input())
+
+fib = [1]*50
+
+for i in range(N+2):
+    fib[i+2] = fib[i] + fib[i+1]
+
+print(fib[i-1])
+
+

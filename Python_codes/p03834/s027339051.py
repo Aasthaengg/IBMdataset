@@ -1,0 +1,6 @@
+print(' '.join(input().split(',')))
+
+
+
+
+

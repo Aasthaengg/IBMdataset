@@ -1,0 +1,5 @@
+n = int(input())
+l = list(map(int, input().split()))
+l.sort()
+ans = sum([l[i] for i in range(2 * n) if i % 2 == 0])
+print(ans)

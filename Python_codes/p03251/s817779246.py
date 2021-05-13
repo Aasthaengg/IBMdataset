@@ -1,0 +1,7 @@
+def imp():return map(int,input().split())
+def limp():return list(map(int,input().split()))
+n,m,x,y=imp()
+lx=max(limp())
+ly=min(limp())
+if ly>lx and lx+1>x and ly<=y:print("No War")
+else:print("War")

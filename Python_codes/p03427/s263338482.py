@@ -1,0 +1,1 @@
+n=input();print(max(sum(list(map(int,list(n)))),int(n[0])+9*len(n)-10))

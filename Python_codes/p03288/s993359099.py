@@ -1,0 +1,1 @@
+print('A{}C'.format('BRG'[(int(input())+400)//1600]))

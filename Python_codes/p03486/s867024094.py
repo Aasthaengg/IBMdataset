@@ -1,0 +1,8 @@
+a = list(input())
+b = list(input())
+a.sort()
+b.sort()
+b = sorted(b, reverse=True)
+a = ''.join(a)
+b = ''.join(b)
+print('Yes') if a < b else print('No')

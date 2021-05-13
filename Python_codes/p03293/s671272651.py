@@ -1,0 +1,17 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
+def main():
+    s = input()
+    t = input()
+
+    for _ in range(len(s)):
+        if s == t:
+            print('Yes')
+            exit()
+        else:
+            s = s[-1] + s[:-1]
+    print('No')
+
+if __name__ == '__main__':
+    main()

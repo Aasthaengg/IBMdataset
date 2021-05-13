@@ -1,0 +1,5 @@
+n = int(input())
+a = sorted(list(map(int, input().split())), reverse=True)
+A = sum(a[::2])
+B = sum(a[1::2])
+print(A - B)

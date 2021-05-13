@@ -1,0 +1,1 @@
+from math import ceil,sqrt;s=int(input());a=ceil(sqrt(s));print(0,0,a,1,a**2-s,a)

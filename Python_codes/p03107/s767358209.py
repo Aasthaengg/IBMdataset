@@ -1,0 +1,5 @@
+s = input()
+red = s.count("0")
+blue = s.count("1")
+num = min(red,blue)
+print(num*2)

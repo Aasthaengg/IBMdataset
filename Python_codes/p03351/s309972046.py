@@ -1,0 +1,2 @@
+a,b,c,d = map(int,input().split())
+print('YNeos'[(abs(b-a)>d or abs(c-b)>d) and abs(c-a)>d::2])

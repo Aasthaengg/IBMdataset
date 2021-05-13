@@ -1,0 +1,5 @@
+str = input().split()
+r = int(str[0])
+str = input().split()
+g = int(str[0])
+print((g * 2) - r)

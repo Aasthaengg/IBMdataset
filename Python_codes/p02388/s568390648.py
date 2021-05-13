@@ -1,0 +1,4 @@
+# coding: utf-8
+x = int(input())
+x3 = x ** 3
+print(x3)

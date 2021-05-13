@@ -1,0 +1,1 @@
+S,T=[input() for _ in range(2)];print(sum(S[i]==T[i] for i in range(3)))

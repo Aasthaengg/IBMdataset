@@ -1,0 +1,5 @@
+x=input()
+y=x.split(" ")
+a=int(y[0])
+str=str(a**3)
+print(str)

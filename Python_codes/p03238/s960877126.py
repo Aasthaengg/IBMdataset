@@ -1,0 +1,1 @@
+print("Hello World" if int(input()) == 1 else sum([int(input()) for i in range(2)]))

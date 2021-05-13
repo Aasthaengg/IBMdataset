@@ -1,0 +1,1 @@
+n=sorted(input().split());print(int(n.pop()+n.pop())+int(n.pop()))

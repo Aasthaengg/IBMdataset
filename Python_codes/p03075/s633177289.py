@@ -1,0 +1,1 @@
+n=[int(input()) for _ in range(6)];print([':(','Yay!'][n[4]-n[0]<=n[5]])

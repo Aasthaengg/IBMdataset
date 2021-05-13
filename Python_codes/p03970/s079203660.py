@@ -1,0 +1,1 @@
+print(sum(a!=b for a,b in zip('CODEFESTIVAL2016',input())))

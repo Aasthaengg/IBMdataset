@@ -1,0 +1,12 @@
+n=int(input())
+s=list(map(int,input().split()))
+q=int(input())
+t=list(map(int,input().split()))
+count=0
+for i in range(q):
+    for j in range(n):
+         if t[i]==s[j]:
+             count+=1
+             break
+print(count)
+        

@@ -1,0 +1,19 @@
+#coding: UTF-8
+
+#a~b??????????´???°????????°
+
+l = map(int, raw_input().split())
+a = l[0]
+b = l[1]
+c = l[2]
+
+ans = 0
+x = a
+
+while x <= b:
+	y = c % x
+	x += 1
+	if y == 0:
+		ans += 1
+
+print "%d" %ans

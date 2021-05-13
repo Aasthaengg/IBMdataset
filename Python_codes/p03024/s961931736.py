@@ -1,0 +1,1 @@
+s=input();print("YNEOS"[s.count("o")+15-len(s)<8::2])

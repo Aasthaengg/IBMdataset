@@ -1,0 +1,7 @@
+N, R = map(int, input().split());
+
+if N >= 10:
+  print(R);
+else:
+  dif= 100 * (10 - N);
+  print(R + dif);

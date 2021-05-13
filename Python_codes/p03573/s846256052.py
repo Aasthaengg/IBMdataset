@@ -1,0 +1,1 @@
+A,B,C=input().split();print(A*(B==C)or B*(A==C)or C)

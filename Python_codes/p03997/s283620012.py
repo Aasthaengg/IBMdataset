@@ -1,0 +1,7 @@
+a=input()
+b=input()
+h=input()
+a=int(a)
+b=int(b)
+h=int(h)
+print (int((a+b)*h/2))

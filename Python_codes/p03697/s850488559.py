@@ -1,0 +1,1 @@
+x=sum(map(int,input()[::2]));print(['error',x][x<10])

@@ -1,0 +1,1 @@
+a,b=input().split();print('YNeos'[int(a+b)!=int(int(a+b)**.5)**2::2])

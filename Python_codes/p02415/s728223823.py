@@ -1,0 +1,1 @@
+print raw_input().strip('\n').swapcase()

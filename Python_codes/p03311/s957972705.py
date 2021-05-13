@@ -1,0 +1,6 @@
+N = int(input())
+A = list(map(int,input().split()))
+A = [A[i]-(i+1) for i in range(N)]
+A.sort()
+b = (A[N//2-1]+A[N//2])//2 if N%2==0 else A[N//2]
+print(sum([abs(a-b) for a in A]))

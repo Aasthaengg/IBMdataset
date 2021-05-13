@@ -1,0 +1,1 @@
+print('CRSlauoinunndyyy'[ord(input()[0])%7%3::3])

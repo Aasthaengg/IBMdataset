@@ -1,0 +1,5 @@
+K, T = map(int, input().split())
+a = list(map(int, input().split()))
+s = sum(a)
+mx = max(a)
+print(max(0, mx-1-(s-mx)))

@@ -1,0 +1,1 @@
+A,B=map(int,input().split());print(['P','Imp'][A%3*(B%3)*(A+B)%3>0]+'ossible')

@@ -1,0 +1,7 @@
+s = input()
+nums = s.split()
+a = int(nums[0])
+b = int(nums[1])
+c = int(nums[2])
+d = int(nums[3])
+print(max(a*c,a*d,b*c,b*d))

@@ -1,0 +1,1 @@
+print("A"+str(["R","B"][int(input())<1200])+"C")

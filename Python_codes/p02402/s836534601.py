@@ -1,0 +1,6 @@
+t = input()
+lst = list(map(int, input().split()))
+a = max(lst)
+b = min(lst)
+c = sum(lst)
+print(str(b) + " " + str(a) + " " + str(c))

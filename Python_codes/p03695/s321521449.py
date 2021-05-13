@@ -1,0 +1,34 @@
+N = int(input())
+a = list(map(int, input().split()))
+gray = 0
+brown = 0
+green = 0
+water = 0
+blue = 0
+yellow = 0
+orange = 0
+red = 0
+free = 0
+for i in range(N):
+  if a[i] < 400: gray += 1
+  elif a[i] < 800: brown += 1
+  elif a[i] < 1200: green += 1
+  elif a[i] < 1600: water += 1
+  elif a[i] < 2000: blue += 1
+  elif a[i] < 2400: yellow += 1
+  elif a[i] < 2800: orange += 1
+  elif a[i] < 3200: red += 1
+  else: free += 1
+cnt = 0
+if gray: cnt += 1
+if brown: cnt += 1
+if green: cnt += 1
+if water: cnt += 1
+if blue: cnt += 1
+if yellow: cnt += 1
+if orange: cnt += 1
+if red: cnt += 1
+cntmax = cnt
+if free: cntmax = free + cnt
+if not cnt: cnt += 1
+print(cnt, cntmax)

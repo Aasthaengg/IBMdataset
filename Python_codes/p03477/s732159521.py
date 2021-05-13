@@ -1,0 +1,5 @@
+a,b,c,d=input().split()
+l,r=int(a)+int(b),int(c)+int(d)
+if l>r:print('Left')
+if l==r:print('Balanced')
+if l<r:print('Right')

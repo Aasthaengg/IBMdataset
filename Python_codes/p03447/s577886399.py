@@ -1,0 +1,5 @@
+X=int(input())
+A=int(input())
+B=int(input())
+S=int(X-A-((X-A)-(X-A)%B))
+print(S)

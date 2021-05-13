@@ -1,0 +1,11 @@
+import sys
+
+stdin = sys.stdin
+
+ri = lambda: int(rs())
+rl = lambda: list(map(int, stdin.readline().split()))
+rs = lambda: stdin.readline().rstrip()  # ignore trailing spaces
+
+A, B, C = rs().split()
+bool = A[-1] == B[0] and B[-1] == C[0]
+print('YES' if bool else 'NO')

@@ -1,0 +1,30 @@
+import sys, re, os
+from collections import deque, defaultdict, Counter
+from math import ceil, sqrt, hypot, factorial, pi, sin, cos, radians
+from itertools import permutations, combinations, product, accumulate
+from operator import itemgetter, mul
+from copy import deepcopy
+from string import ascii_lowercase, ascii_uppercase, digits
+from fractions import gcd
+def input(): return sys.stdin.readline().strip()
+def STR(): return input()
+def INT(): return int(input())
+def MAP(): return map(int, input().split())
+def S_MAP(): return map(str, input().split())
+def LIST(): return list(map(int, input().split()))
+def S_LIST(): return list(map(str, input().split()))
+sys.setrecursionlimit(10 ** 9)
+inf = sys.maxsize
+mod = 10 ** 9 + 7
+
+s = list(STR())
+l = len(s)
+k = INT()
+for i in range(l):
+    tmp = (ord('z') - ord(s[i]) + 1) % 26
+    if tmp <= k:
+        s[i] = 'a'
+        k -= tmp
+    #print(k, tmp)
+s[l - 1] = chr((ord(s[l - 1]) - ord('a') + k) % 26 + ord('a'))
+print(''.join(s))

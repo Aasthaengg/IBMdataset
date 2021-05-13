@@ -1,0 +1,1 @@
+n=input();print("YNEOS"[sum(int(x)%2 for x in input().split())%2::2])

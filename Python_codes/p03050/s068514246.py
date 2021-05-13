@@ -1,0 +1,1 @@
+n=int(input());print(sum(n//i-1 for i in range(1,int(n**.5+1)) if n%i==0and n//i-1>i))

@@ -1,0 +1,10 @@
+N,M,X,Y = map(int, input().split())
+x = list(map(int, input().split()))
+y = list(map(int, input().split()))
+
+x.append(X)
+y.append(Y)
+x = sorted(x)
+y = sorted(y)
+if max(x) < min(y): print("No War")
+else: print("War")

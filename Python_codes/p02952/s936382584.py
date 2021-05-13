@@ -1,0 +1,7 @@
+n = input()
+if len(n) == 6: print("90909")
+elif len(n) == 5: print(909 + int(n) - 9999)
+elif len(n) == 4: print("909")
+elif len(n) == 3: print(9 + int(n) - 99)
+elif len(n) == 2: print("9")
+else: print(int(n))

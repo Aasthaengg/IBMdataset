@@ -1,0 +1,4 @@
+s=input()
+kouho=["AKIHABARA","KIHBR","AKIHBR","KIHABR","KIHBAR","KIHBRA","AKIHABR","AKIHBAR","AKIHBRA","KIHABAR","KIHABRA","KIHBARA","AKIHABAR","AKIHABRA","AKIHBARA","KIHABARA"]
+if s in kouho:print("YES")
+else:print("NO")

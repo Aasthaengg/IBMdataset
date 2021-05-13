@@ -1,0 +1,1 @@
+a,b=int(input()),int(input());print(['LESS','GREATER'][a>b] if a!=b else 'EQUAL')

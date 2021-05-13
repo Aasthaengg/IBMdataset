@@ -1,0 +1,1 @@
+import math;f=math.factorial;N,M=sorted(map(int,input().split()));print(f(N)*f(M)*max(0,2-M+N)%(10**9+7))

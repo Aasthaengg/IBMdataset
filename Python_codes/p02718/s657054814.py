@@ -1,0 +1,6 @@
+n, m = list(map(int, input().split()))
+a = list(map(int, input().split()))
+a.sort(reverse=True)
+total = sum(a)
+ratio = 1 / (4 * m)
+print("Yes" if a[m - 1] >= total * ratio else "No")

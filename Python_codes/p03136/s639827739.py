@@ -1,0 +1,5 @@
+n = int(input())
+l = list(map(int, input().split()))
+m = max(l)
+s = sum(l)
+print('Yes' if (m < s - m) else 'No')

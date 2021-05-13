@@ -1,0 +1,1 @@
+print("YES" if "".join(sorted(input().split())) == "557" else "NO")

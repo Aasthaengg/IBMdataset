@@ -1,0 +1,3 @@
+s = input()
+l = ["AKIHABARA", "AKIHABAR", "AKIHABRA", "AKIHBARA", "KIHABARA", "AKIHABR", "AKIHBAR", "KIHABAR", "AKIHBRA", "KIHABRA", "KIHBARA", "AKIHBR", "KIHABR", "KIHBAR", "KIHBRA", "KIHBR"]
+print("YES" if s in l else "NO")

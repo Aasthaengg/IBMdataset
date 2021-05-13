@@ -1,0 +1,1 @@
+print(eval("max(0,100*(10-"+input().replace(" ","))+")))

@@ -1,0 +1,5 @@
+d=int(input())
+print("Christmas ",end="")
+if d==24: print("Eve ")
+elif d==23: print("Eve "*2)
+elif d==22: print("Eve "*3)

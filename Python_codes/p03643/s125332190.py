@@ -1,0 +1,5 @@
+def main():
+    n=input()
+    print("ABC"+n)
+    
+main()

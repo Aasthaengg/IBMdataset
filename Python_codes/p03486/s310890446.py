@@ -1,0 +1,5 @@
+s=input()
+t=input()
+lis=sorted(list(s))
+lit=sorted(list(t),reverse=1)
+print("Yes" if "".join(lis) < "".join(lit) else "No")

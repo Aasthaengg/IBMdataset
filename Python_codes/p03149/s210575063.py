@@ -1,0 +1,1 @@
+print("YES" if "".join(sorted(set(input().split())))== "1479" else "NO")

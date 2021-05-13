@@ -1,0 +1,8 @@
+# 143 A
+
+a, b = map(int, input().split())
+
+if a >= (b * 2):
+    print(a - (b * 2))
+elif a < (b * 2):
+    print(0)

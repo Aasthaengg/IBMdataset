@@ -1,0 +1,5 @@
+A,B,K = (int(X) for X in input().split())
+Low  = list(range(A,min(B+1,A+K)))
+High = list(range(B,max(A-1,B-K),-1)) 
+Num  = sorted(set(Low+High))
+print('\n'.join(str(X) for X in Num))

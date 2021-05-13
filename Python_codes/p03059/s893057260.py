@@ -1,0 +1,9 @@
+a,b,c=list(map(int,input().split()))
+count=0
+d=a
+con=1
+while(a<=c+0.5):
+  count+=b
+  con+=1
+  a=d*con
+print(count)

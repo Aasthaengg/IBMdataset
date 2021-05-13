@@ -1,0 +1,1 @@
+print("YES" if sum([int(x) for x in input().split()]) == 17 else "NO")

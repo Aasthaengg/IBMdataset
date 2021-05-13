@@ -1,0 +1,5 @@
+n=int(input())
+a,b=map(int,input().split())
+l=list(map(int,input().split()))
+x,y=sum(i<=a for i in l),sum(b<i for i in l)
+print(min(x,y,len(l)-x-y))

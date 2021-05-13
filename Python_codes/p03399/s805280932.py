@@ -1,0 +1,1 @@
+print(eval(f"+min({'int(input()),'*2})"*2))

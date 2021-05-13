@@ -1,0 +1,1 @@
+a,b=map(int,input().split());print('IPmopsossisbilbel e'[a%3==0 or b%3==0 or (a+b)%3==0::2])

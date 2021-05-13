@@ -1,0 +1,17 @@
+s=input()
+n=len(s)
+i=1
+c=1
+r=s[0]
+while(i<n):
+    j=i
+    t=''
+    while(j<n):
+        t+=s[j]
+        if(t!=r):
+            r=t
+            c+=1
+            break
+        j+=1
+    i=j+1
+print(c)

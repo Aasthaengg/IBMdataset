@@ -1,0 +1,5 @@
+A, B = input().split()
+A = int(A)
+b = tuple(map(int, B.split(".")))
+ans = A * b[0] + (A * b[1] // 100)
+print(ans)

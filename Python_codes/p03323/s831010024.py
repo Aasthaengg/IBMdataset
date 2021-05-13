@@ -1,0 +1,1 @@
+print([':(','Yay!'][all(i<9 for i in map(int,input().split()))])

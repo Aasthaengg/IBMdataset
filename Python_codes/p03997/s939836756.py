@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+h = int(input())
+x = lambda a, b, h: int((a+b)*h/2)
+print(x(a, b, h))

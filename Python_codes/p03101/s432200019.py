@@ -1,0 +1,7 @@
+a,b=input().split()
+c,d=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(d)
+print((a-c)*(b-d))

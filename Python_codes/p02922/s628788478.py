@@ -1,0 +1,6 @@
+a,b=map(int,input().split())
+if a==2:print(b-1)
+elif b%(a-1)==1:print(b//(a-1))
+elif b%(a-1)==0:print(b//(a-1))
+elif b==1:print(0)
+else:print(b//(a-1)+1)

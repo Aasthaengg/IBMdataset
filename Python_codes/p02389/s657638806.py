@@ -1,0 +1,1 @@
+print ' '.join(map(str, ([a*b if i == 0 else 2*a+2*b  for i, a, b in [(i,) + a for i, a in enumerate((zip(*[[int(i),int(i)] for i in raw_input().split()])))]])))

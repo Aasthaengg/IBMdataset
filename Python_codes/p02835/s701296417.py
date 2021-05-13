@@ -1,0 +1,1 @@
+print("bust" if eval(input().replace(" ","+"))>=22 else "win")

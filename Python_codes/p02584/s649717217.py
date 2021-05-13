@@ -1,0 +1,12 @@
+n,k,d=map(int,input().split())
+n=abs(n)
+q=n//d
+r=n%d
+if(k<=q):
+    print(n-k*d)
+else:
+    rem=k-q
+    if(rem%2==0):
+        print(r)
+    else:
+        print(min(abs(r-d),abs(r+d)))

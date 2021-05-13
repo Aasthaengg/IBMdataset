@@ -1,0 +1,8 @@
+n = int(input())
+x = list(map(int, input().split()))
+y = list(map(int, input().split()))
+
+print(sum([abs(x - y) for x,y in zip(x,y)]))
+print(pow(sum([pow(abs(x - y),2) for x,y in zip(x,y)]), 1/2))
+print(pow(sum([pow(abs(x - y),3) for x,y in zip(x,y)]), 1/3))
+print(max([abs(x - y) for x,y in zip(x,y)]))

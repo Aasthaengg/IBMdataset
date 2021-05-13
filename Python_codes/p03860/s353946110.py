@@ -1,0 +1,4 @@
+a,b,c = input().split()
+
+ans = "A" + b[0] + "C"
+print(ans)

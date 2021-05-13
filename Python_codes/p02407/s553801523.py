@@ -1,0 +1,5 @@
+n = input()
+a = list(map(int, input().split()))
+a.reverse()
+a = list(map(str,a))
+print(" ".join(a))

@@ -1,0 +1,5 @@
+p,q,r=map(int,input().split())
+a=min(p,q)
+b=max(p,q)
+c=min(b,r)
+print("{}".format(a+c))

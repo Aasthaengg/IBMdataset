@@ -1,0 +1,1 @@
+print(''.join(map(str, ["ABC",int(input())])))

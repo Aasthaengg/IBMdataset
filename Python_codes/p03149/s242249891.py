@@ -1,0 +1,1 @@
+print("YNEOS"[set(input())!=set("1974 ")::2])

@@ -1,0 +1,8 @@
+num=input().split()
+W=int(num[0])
+H=int(num[1])
+x=int(num[2])
+y=int(num[3])
+r=int(num[4])
+if(x-r<0 or y-r<0 or x+r>W or y+r>H): print('No')
+else: print('Yes')

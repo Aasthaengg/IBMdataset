@@ -1,0 +1,2 @@
+A, B, C = list(input().split())
+print(max(int(A)+int(B+C),int(A+B)+int(C),int(A)+int(C+B),int(A+C)+int(B),int(B)+int(A+C),int(B+A)+int(C),int(B)+int(C+A),int(B+C)+int(A),int(C)+int(A+B),int(C+A)+int(B),int(C)+int(B+A),int(C+B)+int(A)))

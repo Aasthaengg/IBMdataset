@@ -1,0 +1,1 @@
+print(int(eval('>='.join(input().split())))*10)

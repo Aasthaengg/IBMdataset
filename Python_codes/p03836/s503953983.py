@@ -1,0 +1,2 @@
+xy = list(map(int, input().split()))
+print("U"*(xy[3]-xy[1]) + "R"*(xy[2]-xy[0]) + "D"*(xy[3]-xy[1]) + "L"*(xy[2]-xy[0]+1) + "U"*(xy[3]-xy[1]+1) + "R"*(xy[2]-xy[0]+1) + "D" + "R"+ "D"*(xy[3]-xy[1]+1) + "L"*(xy[2]-xy[0]+1) + "U")

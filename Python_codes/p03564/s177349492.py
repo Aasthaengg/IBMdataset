@@ -1,0 +1,1 @@
+import math;n,k=int(input()),int(input());c=int(math.log2(k))+1;d=min(n,c);print(2**d+(n-d)*k)

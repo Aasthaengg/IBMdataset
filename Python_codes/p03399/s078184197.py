@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+list1=[0]*2
+list2=[0]*2
+list1[0]=a
+list1[1]=b
+list2[0]=c
+list2[1]=d
+print(min(list1)+min(list2))

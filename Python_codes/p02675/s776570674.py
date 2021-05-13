@@ -1,0 +1,7 @@
+n = input()
+if n[-1] in "24579":
+  print("hon")
+elif n[-1] in "0168":
+  print("pon")
+elif n[-1] in "3":
+  print("bon")

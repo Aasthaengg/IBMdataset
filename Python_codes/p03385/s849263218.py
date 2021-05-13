@@ -1,0 +1,1 @@
+print("Yes" if ["a", "b", "c"] == sorted(list(input())) else "No")

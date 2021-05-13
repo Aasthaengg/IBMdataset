@@ -1,0 +1,1 @@
+N,*L=map(int,open(0).read().split());L.sort();print(sum(min(a,b)for a,b in zip(L[::2],L[1::2])))

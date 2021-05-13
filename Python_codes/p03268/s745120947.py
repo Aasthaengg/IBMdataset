@@ -1,0 +1,15 @@
+def main():
+    import sys
+
+    def input(): return sys.stdin.readline().rstrip()
+
+    n, k = map(int, input().split())
+
+    ans = (n//k)**3
+    if k%2 == 0:
+        ans += ((n+k//2)//k)**3
+    print(ans)
+
+
+if __name__ == '__main__':
+    main()

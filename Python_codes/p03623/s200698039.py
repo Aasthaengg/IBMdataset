@@ -1,0 +1,5 @@
+x,a,b=map(int,input().split())
+d1=abs(x-a)
+d2=abs(x-b)
+if d1<d2:print('A')
+else:print('B')

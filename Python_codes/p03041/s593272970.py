@@ -1,0 +1,1 @@
+n,k=map(int,input().split());s=input();print(*[s[i] if k-1!=i else s[i].lower() for i in range(n)],sep='')

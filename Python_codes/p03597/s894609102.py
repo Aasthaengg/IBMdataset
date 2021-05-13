@@ -1,0 +1,6 @@
+N = input()
+n =int(N)
+a = input()
+A = int(a)
+difference = int(n**2-A)
+print(difference)

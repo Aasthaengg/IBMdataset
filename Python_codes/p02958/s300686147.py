@@ -1,0 +1,5 @@
+n = int(input())
+p = list(map(int, input().split()))
+q = sorted(p)
+cnt = sum(p[i] != q[i] for i in range(n))
+print(["NO", "YES"][cnt <= 2])

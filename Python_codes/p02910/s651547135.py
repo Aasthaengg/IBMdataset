@@ -1,0 +1,1 @@
+s=input();print('No'if [1 for i in s[::2] if i=='L'] or [1 for i in s[1::2] if i=='R'] else'Yes')

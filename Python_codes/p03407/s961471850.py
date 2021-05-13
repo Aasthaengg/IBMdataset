@@ -1,0 +1,1 @@
+print(['No','Yes'][[a+b>=c for a,b,c in zip(*[map(int,input().split())]*3)][0]])

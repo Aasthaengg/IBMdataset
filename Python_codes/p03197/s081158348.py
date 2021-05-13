@@ -1,0 +1,1 @@
+_,*a=open(0);print('first' if any(int(x)%2 for x in a)else'second')

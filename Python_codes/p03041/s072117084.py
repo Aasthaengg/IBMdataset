@@ -1,0 +1,5 @@
+N, K = list(map(int, input().split()))
+S = input()
+T = list(S)
+T[K - 1] = S[K - 1].lower()
+print(''.join(T))

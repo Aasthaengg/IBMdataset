@@ -1,0 +1,5 @@
+n,k = (int(a) for a in input().split())
+s = input()
+x =list(s)
+x[k-1] = x[k-1].lower()
+print(''.join(x))

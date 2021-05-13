@@ -1,0 +1,11 @@
+s = input()
+
+for i in range(len(s)):
+    if s[i] == 'A':
+        st = i
+        break
+for i in range(len(s)-1, -1, -1):
+    if s[i] == 'Z':
+        en = i
+        break
+print(en-st+1)

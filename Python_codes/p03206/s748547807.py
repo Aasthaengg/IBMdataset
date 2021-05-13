@@ -1,0 +1,1 @@
+n=int(input());print('Christmas',end='');print(' Eve Eve Eve' if n==22 else ' Eve Eve' if n==23 else ' Eve' if n==24 else '')

@@ -1,0 +1,16 @@
+# Aizu Problem ITP_1_6_D: Matrix Vector Multiplication
+#
+import sys, math, os
+
+# read input:
+PYDEV = os.environ.get('PYDEV')
+if PYDEV=="True":
+    sys.stdin = open("sample-input.txt", "rt")
+
+
+n, m = [int(_) for _ in input().split()]
+A = [[int(_) for _ in input().split()] for __ in range(n)]
+V = [int(input()) for _ in range(m)]
+
+for row in range(n):
+    print(sum([A[row][k] * V[k] for k in range(m)]))

@@ -1,0 +1,5 @@
+N = input()
+A = input()
+N = int(N)
+A = int(A)
+print( N ** 2 - A)

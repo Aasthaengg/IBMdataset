@@ -1,0 +1,5 @@
+a = input()
+b = input()
+c = input()
+d = input()
+print min(a,b)+min(c,d)

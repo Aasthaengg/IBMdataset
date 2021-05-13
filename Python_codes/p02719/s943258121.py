@@ -1,0 +1,5 @@
+n,k = map(int, input().split())
+x = abs(k*((n//k)+1)-n)
+y = abs(k*((n//k)-11)-n)
+z = abs(k*(n//k)-n)
+print(min(n,x,y,z))

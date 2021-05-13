@@ -1,0 +1,1 @@
+k,t,*A=map(int,open(0).read().split());print(max(2*max(A)+~k,0))

@@ -1,0 +1,5 @@
+s1,s2,s3=map(str,input().split())
+s1=list(str.upper(s1))
+s2=list(str.upper(s2))
+s3=list(str.upper(s3))
+print(s1[0]+s2[0]+s3[0])

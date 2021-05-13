@@ -1,0 +1,1 @@
+n,s=map(str,open(0));print("Four" if "Y" in s else "Three")

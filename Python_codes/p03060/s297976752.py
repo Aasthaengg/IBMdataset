@@ -1,0 +1,5 @@
+I=lambda:map(int,input().split())
+N=int(input())
+*V,=I()
+*C,=I()
+print(sum([x-y for x,y in zip(V,C) if x-y>0]))

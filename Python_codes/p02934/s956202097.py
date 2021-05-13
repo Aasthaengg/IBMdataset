@@ -1,0 +1,5 @@
+n=int(input())
+a=list(map(int,input().split()))
+a=map(lambda x:x**(-1),a)
+ans=1/(sum(a))
+print(ans)

@@ -1,0 +1,1 @@
+a,b=input().split();print(b if a=="H"else"HD"[a>b]if a==b else"D")

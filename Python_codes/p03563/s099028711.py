@@ -1,0 +1,1 @@
+r,g=open(0);print(2*int(g)-int(r))

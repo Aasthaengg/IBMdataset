@@ -1,0 +1,1 @@
+l=input().split();print(min(l,key=lambda x:l.count(x)))

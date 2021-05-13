@@ -1,0 +1,1 @@
+print('NYoe s'[' 1 1 1'in' '.join(str(len({*t.split()}))for t in open(0))::2])

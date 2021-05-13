@@ -1,0 +1,5 @@
+n,m,x = map(int, input().split())
+a = list(map(int, input().split()))
+set0 = len(set(i for i in a if i < x))
+setn = len(set(j for j in a if j > x))
+print(min(set0,setn))

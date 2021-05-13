@@ -1,0 +1,1 @@
+print('YNeos'[set(input())not in map(set,['NS','EW','NEWS'])::2])

@@ -1,0 +1,1 @@
+x,a=input().split();print('100'[x<a::2])

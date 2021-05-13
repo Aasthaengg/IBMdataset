@@ -1,0 +1,5 @@
+N = int(input())
+A = list(map(int, input().split()))
+AM = max(A)
+Am = min(A)
+print(AM-Am)

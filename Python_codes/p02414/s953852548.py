@@ -1,0 +1,5 @@
+n,m,l = [eval(x) for x in input().split()]
+mat_1 = [[eval(x) for x in input().split()] for _ in range(n)]
+mat_2 = [[eval(x) for x in input().split()] for _ in range(m)]
+res_mat = [[sum([mat_1[i][j]*mat_2[j][k] for j in range(m)]) for k in range(l)] for i in range(n)]
+[print(*res_mat[i]) for i in range(n)]

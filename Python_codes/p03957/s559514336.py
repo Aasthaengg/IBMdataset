@@ -1,0 +1,9 @@
+s = list(input())
+ans = "No"
+for i in range(len(s)):
+    if s[i] == "C":
+        for j in range(i+1, len(s)):
+            if s[j] == "F":
+                ans = "Yes"
+                break
+print(ans)

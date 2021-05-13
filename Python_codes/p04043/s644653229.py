@@ -1,0 +1,1 @@
+a,b,c=map(int,input().split());print(['NO','YES'][max(a,b,c)==7 and (a+b+c)-max(a,b,c)==10])

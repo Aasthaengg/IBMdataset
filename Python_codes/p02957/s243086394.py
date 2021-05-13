@@ -1,0 +1,1 @@
+p=eval(input().replace(" ","+"))/2;print("IMPOSSIBLE"if p%1>0else int(p))

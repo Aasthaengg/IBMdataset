@@ -1,0 +1,1 @@
+*a,b=map(int,open(0).read().split());print(sum(a)+max(a)*(2**b-1))

@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+h=int(input())
+A=int(1/2*(a+b)*h)
+print(A)

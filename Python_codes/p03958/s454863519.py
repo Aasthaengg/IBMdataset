@@ -1,0 +1,5 @@
+k, t = map(int, input().split())
+A = list(map(int, input().split()))
+_max = max(A)
+ans = max(0, _max - 1 - (k-_max))
+print(ans)

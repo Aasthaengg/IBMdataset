@@ -1,0 +1,1 @@
+print(int('1'*(len(str(bin(int(input()))))-2), 2))

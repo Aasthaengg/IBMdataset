@@ -1,0 +1,1 @@
+for i, x in enumerate([list(input()) for _ in range(3)]): print(x[i], end='')

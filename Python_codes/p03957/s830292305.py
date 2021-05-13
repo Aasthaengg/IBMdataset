@@ -1,0 +1,1 @@
+print('YNeos'[1-any(['F' in i for i in input().split('C')[1:]])::2])

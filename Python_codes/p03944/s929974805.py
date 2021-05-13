@@ -1,0 +1,25 @@
+w,h,n = map(int,input().split())
+x_a = 0
+y_a = 0
+for i in range(n):
+    x,y,a = map(int,input().split())
+    
+    if a == 1:
+        if x_a < x:
+            x_a = x
+    elif a == 2:
+        if x < w:
+            w = x
+    elif a == 3:
+        if y_a < y:
+            y_a = y
+    elif a == 4:
+        if y < h:
+            h = y
+
+if w - x_a <= 0 or h - y_a <= 0:
+    ans = 0
+else:
+    ans = (w - x_a)*(h - y_a)
+
+print(ans)

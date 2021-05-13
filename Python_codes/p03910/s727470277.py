@@ -1,0 +1,1 @@
+N=int(input());n=int((2*N-1/4)**.5+.5);i=1;exec("n*-~n/2-N-i and print(i);i+=1;"*n)

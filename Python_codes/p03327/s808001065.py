@@ -1,0 +1,1 @@
+print('ABC'if len(input())<4else'ABD')

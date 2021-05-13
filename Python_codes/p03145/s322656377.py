@@ -1,0 +1,1 @@
+i=sorted(map(int,input().split()));print(int(i[0]*i[1]/2))

@@ -1,0 +1,24 @@
+if __name__ == '__main__':
+    # ??????????????\???
+    game_count = int(input())
+    deck_taro = [''] * game_count
+    deck_hanako = [''] * game_count
+    for i in range(game_count):
+        data = [x for x in input().split(' ')]
+        deck_taro[i] = data[0]
+        deck_hanako[i] = data[1]
+
+    # ?????????????????????????????¨?????°?¨????
+    point_taro = 0
+    point_hanako = 0
+    for i in range(game_count):
+        if deck_taro[i] < deck_hanako[i]:
+            point_hanako += 3
+        elif deck_taro[i] > deck_hanako[i]:
+            point_taro += 3
+        else:
+            point_hanako += 1
+            point_taro += 1
+
+    # ???????????????
+    print('{0} {1}'.format(point_taro, point_hanako))

@@ -1,0 +1,7 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+n=min(a,b)
+m=min(c,d)
+print(n+m)

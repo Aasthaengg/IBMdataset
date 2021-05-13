@@ -1,0 +1,7 @@
+s=input()
+n=len(s)
+a,b,c=s.count("a"),s.count("b"),s.count("c")
+ma=max(a,b,c)
+mi=min(a,b,c)
+if ma-1<=mi:print('YES')
+else:print('NO')

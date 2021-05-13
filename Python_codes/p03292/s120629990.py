@@ -1,0 +1,6 @@
+a,b,c=map(int,input().split())
+x=abs(a-b)
+y=abs(b-c)
+z=abs(c-a)
+ans=sorted([x,y,z])
+print(ans[0]+ans[1])

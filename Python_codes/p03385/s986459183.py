@@ -1,0 +1,1 @@
+print('NYoe s'[sum([ord(i) for i in input()])==294::2])

@@ -1,0 +1,1 @@
+print(1 if input().split()[0]!=input().split()[0] else 0)

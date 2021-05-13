@@ -1,0 +1,5 @@
+n=int(input())
+p=list(map(int,input().split()))
+p_s=sorted(p)
+s=sum((1 for i in range(n) if p[i]!=p_s[i]) )
+print("YES" if s<=2 else "NO")

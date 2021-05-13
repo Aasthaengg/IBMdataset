@@ -1,0 +1,5 @@
+n = int(input())
+ten = pow(10, n) % (10**9 + 7)
+nine = pow(9, n) % (10**9 + 7)
+eight = pow(8, n) % (10**9 + 7)
+print((ten - (nine * 2) + eight) % (10**9 + 7))

@@ -1,0 +1,1 @@
+from math import factorial as f;N,M=map(int,input().split());print(f(N)*f(M)*(2-(N+M)%2)%(10**9+7) if abs(N-M) < 2 else 0)

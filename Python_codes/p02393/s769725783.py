@@ -1,0 +1,6 @@
+x=input()
+y=x.split(" ")
+z=list(map(int,y))
+z.sort()
+str=str(z[0])+" "+str(z[1])+" "+str(z[2])
+print(str)

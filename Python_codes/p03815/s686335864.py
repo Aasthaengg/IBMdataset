@@ -1,0 +1,5 @@
+n=int(input())
+d,m=divmod(n-6,11)
+if m<1: print(d*2+1)
+elif m<6: print(d*2+2)
+else: print(d*2+3)

@@ -1,0 +1,1 @@
+a=input().split();print(0--~-int(a[0])//~-int(a[1]))

@@ -1,0 +1,5 @@
+a,b,c = input().split(' ')
+print(chr((ord(a[0]) + (ord('A') -ord('a'))))
+      ,chr((ord(b[0]) + (ord('A') -ord('a'))))
+      ,chr((ord(c[0]) + (ord('A') -ord('a'))))
+      , sep='')

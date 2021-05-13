@@ -1,0 +1,16 @@
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+k=int(input())
+cnt=0
+while(a>=b):
+    b=b*2
+    cnt=cnt+1
+while(b>=c):
+    c=c*2
+    cnt=cnt+1
+if(cnt>k):
+    print("No")
+else:
+    print("Yes")

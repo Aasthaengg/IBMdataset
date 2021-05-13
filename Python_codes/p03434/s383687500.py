@@ -1,0 +1,7 @@
+N = int(input())
+numbers = input().split()
+numbers = list(map(int,numbers))
+numbers = sorted(numbers)
+even_numbers = sum(numbers[1::2])
+odd_numbers = sum(numbers[0::2])
+print(abs(odd_numbers - even_numbers))

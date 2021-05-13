@@ -1,0 +1,1 @@
+s=input();print('NYoe s'[s==input()[:len(s)]::2])

@@ -1,0 +1,18 @@
+result=[]
+
+while True:
+	chk_list = input()
+
+	if chk_list == "-":
+		break
+
+	num = int(input())
+	for i in range(num):
+		n = int(input())
+		chk_list = chk_list[n:] + chk_list[0:n]
+
+	result.append(chk_list)
+
+[print(res) for res in result]
+
+

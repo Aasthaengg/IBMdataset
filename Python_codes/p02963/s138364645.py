@@ -1,0 +1,15 @@
+s=int(input())
+if s%(10**9)==0:
+  print(0,end=" ")
+  print(0,end=" ")
+  print(10**9,end=" ")
+  print(0,end=" ")
+  print(0,end=" ")
+  print(s//(10**9))
+else:
+  print(0,end=" ")
+  print(0,end=" ")
+  print(10**9,end=" ")
+  print(1,end=" ")
+  print(10**9-s%(10**9),end=" ")
+  print(s//(10**9)+1)

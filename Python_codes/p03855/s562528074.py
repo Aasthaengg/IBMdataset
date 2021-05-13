@@ -1,0 +1,9 @@
+from collections import*;M=lambda:map(int,input().split());n,k,l=M();d=[-1]*n;t=[-1]*n;r=range(n)
+def f(l,x):
+  if l[x]<0:return x
+  else:l[x]=f(l,l[x]);return l[x]
+def u(l,x,y):
+  if f(l,x)!=f(l,y):l[f(l,y)]=f(l,x)
+for _ in[0]*k:a,b=M();u(d,a-1,b-1)
+for _ in[0]*l:a,b=M();u(t,a-1,b-1)
+p=[(f(d,i),f(t,i))for i in r];c=Counter(p);print(*[c[p[i]]for i in r])

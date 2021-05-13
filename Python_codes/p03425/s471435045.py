@@ -1,0 +1,14 @@
+from itertools import *
+N = int(input())
+S = [input() for n in range(N)]
+D = {"M":0,"A":0,"R":0,"C":0,"H":0}
+ans = 0
+
+for s in S:
+  if s[0] in "MARCH":
+    D[s[0]]+=1
+
+for a,b,c in combinations(D.values(),3):
+  ans+=a*b*c
+
+print(ans)

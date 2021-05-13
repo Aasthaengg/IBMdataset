@@ -1,0 +1,5 @@
+f=lambda : map(int,input().split())
+N=int(input())
+*U,=f()
+*B,=f()
+print(max([sum([*U[1:i+1],*B[i:N-1]]) for i in range(0,N)])+U[0]+B[-1])

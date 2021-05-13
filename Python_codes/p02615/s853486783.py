@@ -1,0 +1,20 @@
+n=int(input())
+lst=list(map(int,input().split()))
+lst=sorted(lst)
+if(n>2):
+    sm=0
+    sm+=lst[-1]
+    k=0
+    i=2
+    num=2
+    while(num<n):
+        k+=1
+        sm+=lst[-i]
+        if(k==2):
+            k=0
+            i+=1
+        num+=1
+elif(n==2):
+    sm=lst[-1]
+
+print(sm)

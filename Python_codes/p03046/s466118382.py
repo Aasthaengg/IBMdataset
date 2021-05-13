@@ -1,0 +1,1 @@
+print(' '.join(list(map(str,((lambda n:[["-1"],["0 0 1 1"]][not n[1]]if n[0]==1 else([n[1]]+list(range(n[1]))+list(range(n[1]+1,(1<<n[0])))+[n[1]]+list(range((1<<n[0])-1,n[1],-1))+list(range(n[1]-1,-1,-1))if n[1]<(1<<n[0])else["-1"]))(list(map(int,input().split()))))))))

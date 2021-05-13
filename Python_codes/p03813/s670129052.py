@@ -1,0 +1,1 @@
+print("AARBCC"["1200">input()::2])

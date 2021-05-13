@@ -1,0 +1,7 @@
+import sys
+def input(): return sys.stdin.readline().strip()
+
+def resolve():
+    x,t=map(int, input().split())
+    print(max(0,x-t))
+resolve()

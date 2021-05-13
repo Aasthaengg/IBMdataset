@@ -1,0 +1,30 @@
+from bisect import bisect_right
+A,B,Q = map(int,input().split())
+S = [int(input()) for _ in range(A)]
+S.insert(0,-10**10)
+S.append(2*10**10)
+T = [int(input()) for _ in range(B)]
+T.insert(0,-10**10)
+T.append(2*20**10)
+for _ in range(Q):
+    x = int(input())
+    inds = bisect_right(S,x)
+    indt = bisect_right(T,x)
+    dmin = 10**11
+    d = x-S[inds-1]+abs(S[inds-1]-T[indt-1])
+    dmin = min(dmin,d)
+    d = x-S[inds-1]+abs(S[inds-1]-T[indt])
+    dmin = min(dmin,d)
+    d = S[inds]-x+abs(S[inds]-T[indt-1])
+    dmin = min(dmin,d)
+    d = S[inds]-x+abs(S[inds]-T[indt])
+    dmin = min(dmin,d)
+    d = x-T[indt-1]+abs(T[indt-1]-S[inds-1])
+    dmin = min(dmin,d)
+    d = x-T[indt-1]+abs(T[indt-1]-S[inds])
+    dmin = min(dmin,d)
+    d = T[indt]-x+abs(T[indt]-S[inds-1])
+    dmin = min(dmin,d)
+    d = T[indt]-x+abs(T[indt]-S[inds])
+    dmin = min(dmin,d)
+    print(dmin)

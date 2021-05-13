@@ -1,0 +1,1 @@
+*x,k=map(int,open(0).read().split());print((2**k-1)*max(x)+sum(x))

@@ -1,0 +1,1 @@
+print([":(","Yay!"][max(map(int,input().split()))<9])

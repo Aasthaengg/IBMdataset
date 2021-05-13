@@ -1,0 +1,8 @@
+a=input()
+b=input()
+c=input()
+a=int(a)
+b=int(b)
+c=int(c)
+s=int((a+b)*c/2)
+print(s)

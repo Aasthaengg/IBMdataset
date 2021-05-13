@@ -1,0 +1,5 @@
+n, k = map(int, input().split())
+string = str(input())
+arr = list(string)
+arr[k-1] = arr[k-1].lower()
+print(*arr, sep="")

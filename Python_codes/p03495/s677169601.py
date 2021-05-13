@@ -1,0 +1,1 @@
+import collections;n,k=map(int,input().split());print(sum(list(sorted(collections.Counter(input().split()).values()))[:-k]))

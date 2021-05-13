@@ -1,0 +1,6 @@
+N = int(input())
+card_list = list(map(int,input().split()))
+sorted_list = sorted(card_list,reverse=True)
+Alice_score = sum(sorted_list[0::2])
+Bob_score =  sum(sorted_list[1::2])
+print(Alice_score-Bob_score)

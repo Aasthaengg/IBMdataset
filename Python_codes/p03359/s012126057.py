@@ -1,0 +1,1 @@
+m,d=map(int,input().split()); print([m,m-1][d<m])

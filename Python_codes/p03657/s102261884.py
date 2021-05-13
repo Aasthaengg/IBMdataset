@@ -1,0 +1,1 @@
+A,B=map(int,input().split());print(['Imp','P'][any([1 for i in [A,B,A+B] if i%3==0])]+'ossible')

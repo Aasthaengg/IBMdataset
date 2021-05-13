@@ -1,0 +1,1 @@
+print("7" in input() and "Yes" or "No")

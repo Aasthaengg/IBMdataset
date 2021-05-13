@@ -1,0 +1,22 @@
+S=input()
+N=len(S)
+mod=[0 for i in range(2019)]
+s=0
+ten=1
+for i in range(N-1,-1,-1): 
+  s+=int(S[i])*ten
+  mod2=s%2019
+  mod[mod2]+=1
+  ten=(ten*10)%2019
+ans=0
+for i in range(2019):
+  k=mod[i]
+  if i==0:
+    if k>=2:
+      ans+=k*(k-1)//2+k
+    else:
+      ans+=k
+  else:
+    if k>=2:
+      ans+=k*(k-1)//2
+print(ans) 

@@ -1,0 +1,10 @@
+x,y,a,b,c = list(map(int,input().split()))
+p = list(map(int,input().split()))
+q = list(map(int,input().split()))
+r = list(map(int,input().split()))
+p = sorted(p,reverse=True)
+q = sorted(q,reverse=True)
+r = sorted(r,reverse=True)
+ans = p[:x]+q[:y]+r
+ans = sorted(ans,reverse=True)
+print(sum(ans[:x+y]))

@@ -1,0 +1,6 @@
+n = int(input())
+kk = int(input())
+x = int(input())
+y = int(input())
+k = min(n,kk)
+print(x*k + y*(n-k))

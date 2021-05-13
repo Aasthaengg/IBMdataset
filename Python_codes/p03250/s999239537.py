@@ -1,0 +1,5 @@
+a = input().split()
+a.sort()
+b = int(a[2] + a[1])
+c = int(a[0])
+print(b + c)

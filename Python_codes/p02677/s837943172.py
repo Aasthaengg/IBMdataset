@@ -1,0 +1,10 @@
+import math
+A,B,H,M = map(int,input().split())
+M_ras = math.radians(M * 6)
+M_x = B * math.cos(M_ras)
+M_y = B * math.sin(M_ras)
+H_ras = math.radians(H * 30 + M * 0.5)
+H_x = A * math.cos(H_ras)
+H_y = A * math.sin(H_ras)
+dis = math.sqrt((M_x - H_x) ** 2 + (M_y - H_y) ** 2)
+print(dis)

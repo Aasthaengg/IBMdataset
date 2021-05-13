@@ -1,0 +1,1 @@
+f=input;a=int(f());print([f(),'red'][a<3200])

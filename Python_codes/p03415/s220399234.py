@@ -1,0 +1,6 @@
+a=input()
+print(a[0],end="")
+a=input()
+print(a[1],end="")
+a=input()
+print(a[2],end="")

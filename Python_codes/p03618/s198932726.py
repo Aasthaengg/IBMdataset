@@ -1,0 +1,1 @@
+a=input();print((len(a)**2-sum(a.count(x)**2for x in set(a)))//2+1)

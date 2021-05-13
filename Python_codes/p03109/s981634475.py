@@ -1,0 +1,1 @@
+a,b,c=map(int,input().split('/'));print(['TBD','Heisei'][a<=2019 and b<=4 and c<=30])

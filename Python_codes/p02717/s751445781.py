@@ -1,0 +1,10 @@
+A,B,C = input().split( )
+
+tmp = A
+A = B
+B = tmp
+tmp = A
+A = C
+C = tmp
+
+print(A + " " + B + " " + C)

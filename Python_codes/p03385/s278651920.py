@@ -1,0 +1,1 @@
+print('NYoe s'[set(input())=={'a','b','c'}::2])

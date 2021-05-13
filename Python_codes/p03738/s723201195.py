@@ -1,0 +1,6 @@
+# a,b = map(int,input().rstrip().split(' '))
+a = int(input().rstrip())
+b = int(input().rstrip())
+if(a>b):print("GREATER")
+elif(a<b):print("LESS")
+else:print("EQUAL")

@@ -1,0 +1,1 @@
+import sys;print"\n".join("%d %d"%(lambda l:(l[0],l[2]/l[0]*l[1]))((lambda f,l:(f(f,l),l[0],l[1]))(lambda f,l:l[1]==0 and l[0] or f(f,[l[1],l[0]%l[1]]),map(int,s.split())))for s in sys.stdin)

@@ -1,0 +1,11 @@
+N = list(input())
+
+ok = False
+
+if N[0]==N[1] and N[1]==N[2]:
+    ok =True
+
+if N[1]==N[2] and N[2]==N[3]:
+    ok = True
+
+print("Yes" if ok else "No")

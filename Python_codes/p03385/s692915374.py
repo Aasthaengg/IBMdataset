@@ -1,0 +1,1 @@
+print(sorted(list(input())) == list("abc") and "Yes" or "No")

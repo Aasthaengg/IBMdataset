@@ -1,0 +1,1 @@
+s=len(set(input()));print('NYoe s'[s==3::2])

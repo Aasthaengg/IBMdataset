@@ -1,0 +1,1 @@
+print(sum(-b if i%2 else a for i,(p,a,b)in enumerate(sorted([(lambda a,b:(-a-b,a,b))(*map(int,input().split()))for i in range(int(input()))]))))

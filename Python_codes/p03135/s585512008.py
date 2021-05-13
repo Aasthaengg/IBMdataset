@@ -1,0 +1,1 @@
+t,x=map(int,input().split());print('{:.04f}'.format(t/x))

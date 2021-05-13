@@ -1,0 +1,1 @@
+a,b=map(int,input().split());print(('P','Imp')[all(i%3 for i in (a,b,a+b))]+'ossible')

@@ -1,0 +1,5 @@
+abc_list = list(map(int,input().split()))
+abc_list_len = len(abc_list)
+dum = set(abc_list)
+dum_len = len(dum)
+print(dum_len)

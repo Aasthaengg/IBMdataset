@@ -1,0 +1,5 @@
+N=int(input())
+K=list(map(int,input().split()))
+K.sort()
+S=int(N/2)
+print(K[S]-K[S-1])

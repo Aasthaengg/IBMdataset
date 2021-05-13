@@ -1,0 +1,1 @@
+i=input();print(len(i)//2-i.count('p'))

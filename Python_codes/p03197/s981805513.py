@@ -1,0 +1,1 @@
+n,*a=map(int,open(0));print("sfeicrosntd"[any(x%2for x in a)::2])

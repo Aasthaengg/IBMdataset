@@ -1,0 +1,20 @@
+H,W=map(int,input().split())
+g=[[0]*(W+2)]+[[0]+[(i=="#")*1 for i in list(input())]+[0] for _ in range(H)]+[[0]*(W+2)]
+ans="Yes"
+for i in range(1,H+1):
+  for j in range(1,W+1):
+    t=0
+    if g[i][j]==0:
+      continue
+    if g[i-1][j]==1:
+      t+=1
+    if g[i+1][j]==1:
+      t+=1
+    if g[i][j-1]==1:
+      t+=1
+    if g[i][j+1]==1:
+      t+=1
+    if t==0:
+      ans="No"
+      break
+print(ans)

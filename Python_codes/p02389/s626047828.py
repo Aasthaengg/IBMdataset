@@ -1,0 +1,6 @@
+x=input()
+y=x.split(" ")
+a=int(y[0])
+b=int(y[1])
+str=str(a*b)+" "+str(2*(a+b))
+print(str)

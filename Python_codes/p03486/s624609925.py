@@ -1,0 +1,1 @@
+s,t=[sorted(input()) for _ in range(2)];print('NYoe s'[s<t[::-1]::2])

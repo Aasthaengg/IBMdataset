@@ -1,0 +1,1 @@
+a,b=map(int,input().split());print(b//2 if 6<=a<=12 else [0,b][a>12])

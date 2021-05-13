@@ -1,0 +1,5 @@
+x,y,z,w = map(int,input().split())
+X,Y = (z-x),(w-y)
+a,b = (z - Y),(w + X)
+c,d = (a - X),(b - Y)
+print(a,b,c,d)

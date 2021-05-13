@@ -1,0 +1,6 @@
+A = int(input().split()[0])
+B = int(input().split()[0])
+C = int(input().split()[0])
+D = int(input().split()[0])
+ans = min([A, B]) + min([C, D])
+print(ans)

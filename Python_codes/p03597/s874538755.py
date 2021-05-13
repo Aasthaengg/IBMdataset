@@ -1,0 +1,1 @@
+N,A=map(int,open(0));print(N**2-A)

@@ -1,0 +1,24 @@
+import math
+def is_prime(number):
+    """ ?????????????????´??°???????´???°???????????????????????? """
+    if number == 2:
+        return True
+    if number < 2 or number%2 == 0:
+        return False
+    i = 3
+    while i < math.sqrt(number) + 1:
+        if number%i == 0:
+            return False
+        i = i + 2
+    return True
+
+COUNTER = 0
+while 1:
+    try:
+        N = int(input())
+        if is_prime(N):
+            COUNTER += 1
+    except EOFError:
+        break
+
+print(COUNTER)

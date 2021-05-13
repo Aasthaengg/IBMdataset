@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+N = min(A,B)
+L = min(C,D)
+print(N+L)

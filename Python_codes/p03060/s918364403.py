@@ -1,0 +1,5 @@
+N=int(input())
+V=list(map(int, input().split()))
+C=list(map(int, input().split()))
+x=sum(filter(lambda x:x > 0, map(lambda x:x[0]-x[1], zip(V,C))))
+print(x)

@@ -1,0 +1,1 @@
+a=input();print('YNEOS'['AA'in a or 'KIH' not in a or a.replace('A','')!='KIHBR'::2])

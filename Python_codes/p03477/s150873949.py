@@ -1,0 +1,1 @@
+a,b,*c=map(int,input().split());print('Balanced'if a+b==sum(c) else'RLiegfhtt'[a+b>sum(c)::2])

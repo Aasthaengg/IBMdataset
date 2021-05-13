@@ -1,0 +1,1 @@
+print("YNEOS"[(lambda n,k:n<k*2-1)(*map(int,input().split()))::2])

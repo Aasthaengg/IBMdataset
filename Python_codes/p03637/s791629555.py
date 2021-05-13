@@ -1,0 +1,1 @@
+input();l=[int(i)%4 for i in input().split()];f=l.count;print('YNeos'[f(0)+f(2)//2<len(l)//2::2])

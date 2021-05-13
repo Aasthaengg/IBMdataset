@@ -1,0 +1,1 @@
+s=input();print(eval(s[:s.rfind(' ')].replace(' ','*')+'//2'))

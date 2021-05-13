@@ -1,0 +1,5 @@
+a=input()
+if a=="SSS": print(0)
+elif a=="RRR":print(3)
+elif a in ["SSR","SRS","RSS","RSR"]:print(1)
+else:print(2)

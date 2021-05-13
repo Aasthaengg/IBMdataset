@@ -1,0 +1,5 @@
+L = ('A','B','C','D','E','F')
+X, Y = list(input().split())
+XX = L.index(X)
+YY = L.index(Y)
+print('=') if XX == YY else print('<' if YY > XX else '>')

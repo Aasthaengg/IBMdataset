@@ -1,0 +1,1 @@
+[print(["YES", "NO"][0 if i[0] + i[1] == i[2] else 1]) for _ in range(int(input())) for i in [sorted([int(x) ** 2 for x in input().split()])] ]

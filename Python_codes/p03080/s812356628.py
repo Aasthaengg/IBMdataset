@@ -1,0 +1,1 @@
+n,s=int(input()),str(input());print("Yes" if 2*s.count("R")>n else"No")

@@ -1,0 +1,1 @@
+n=input();print("YNeos"[n[::-1]!=n::2])

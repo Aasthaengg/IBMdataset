@@ -1,0 +1,1 @@
+A,B,C,D=map(int,input().split());print('Balanced'*(A+B-C-D==0)or'RLiegfhtt'[A+B-C-D>0::2])

@@ -1,0 +1,1 @@
+a=input()+input()+input();print(a[::4])

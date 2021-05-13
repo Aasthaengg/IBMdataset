@@ -1,0 +1,1 @@
+s=input();print(sum(s[i]!="CODEFESTIVAL2016"[i]for i in range(len(s))))

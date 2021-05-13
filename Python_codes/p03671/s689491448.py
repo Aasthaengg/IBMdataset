@@ -1,0 +1,5 @@
+l = list(map(int, input().split()))
+s = min(l)
+l.remove(s)
+t = min(l)
+print(s+t)

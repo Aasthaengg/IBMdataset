@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+h = int(input())
+s = int(0.5*(a+b)*h)
+print(s)

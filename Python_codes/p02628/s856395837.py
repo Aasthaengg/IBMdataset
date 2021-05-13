@@ -1,0 +1,5 @@
+N, K = list(map(int, input().split()))
+arr = list(map(int, input().split()))
+arr.sort()
+ans = sum(arr[:K])
+print(ans)

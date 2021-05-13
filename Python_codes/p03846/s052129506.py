@@ -1,0 +1,1 @@
+n=int(input());print([0,2**(n//2)%(10**9+7)][sorted(map(int,input().split()))==[(i+n%2)//2*2+1-n%2for i in range(n)]])

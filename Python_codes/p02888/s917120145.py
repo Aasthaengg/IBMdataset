@@ -1,0 +1,16 @@
+from numba import njit
+N = int(input())
+L = list(map(int, input().split()))
+L.sort()
+
+@njit
+def solve(L):
+    cnt = 0
+    for i in range(N-2):
+        a = L[i]
+        for j in range(i+1, N-1):
+            b = L[j]
+            for k in range(j+1, N):
+                cnt += a+b > L[k]
+    return cnt
+print(solve(L))

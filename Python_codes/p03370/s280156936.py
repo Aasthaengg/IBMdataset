@@ -1,0 +1,5 @@
+N, X = map(int, input().split())
+recipe = list(map(int, (input() for _ in range(N))))
+X -= sum(recipe)
+ans = N + X // min(recipe)
+print(ans)

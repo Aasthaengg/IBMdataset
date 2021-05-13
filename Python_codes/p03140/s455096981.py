@@ -1,0 +1,1 @@
+n=input();print(sum(len(set(o))-1 for o in zip(input(),input(),input())))

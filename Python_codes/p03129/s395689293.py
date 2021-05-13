@@ -1,0 +1,10 @@
+n, k = map(int,input().split())
+if n % 2 == 0:
+    if n // 2 >= k:
+        print('YES')
+        exit()
+else:
+    if n // 2 + 1 >= k:
+        print('YES')
+        exit()
+print('NO')

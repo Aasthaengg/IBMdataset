@@ -1,0 +1,1 @@
+print('YNeos'['1'in input()[1:]::2])

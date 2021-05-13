@@ -1,0 +1,1 @@
+print('YES' if set(input().split())==set(list('1974')) else 'NO')

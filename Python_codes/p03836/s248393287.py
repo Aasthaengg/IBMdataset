@@ -1,0 +1,17 @@
+sx,sy,tx,ty=map(int,input().split())
+xdiff=tx-sx
+ydiff=ty-sy
+move=[]
+move.append("D")
+move+="R"*(xdiff+1)
+move+="U"*(ydiff+1)
+move+="L"#ここでt到着
+move+="U"
+move+="L"*(xdiff+1)
+move+="D"*(ydiff+1)
+move+="R"#ここでs到着
+move+="R"*xdiff
+move+="U"*ydiff#ここでt到着
+move+="L"*xdiff
+move+="D"*ydiff#ここでs到着
+print(*move,sep="")

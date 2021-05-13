@@ -1,0 +1,10 @@
+x,y,z=map(int,input().split())
+s=0
+c=0
+i=0
+while(s<z+0.5):
+    c+=y
+    s+=x
+    if(s>z):
+        c-=y
+print(c)

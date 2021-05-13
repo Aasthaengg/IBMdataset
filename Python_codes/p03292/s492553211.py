@@ -1,0 +1,1 @@
+n=list(map(int,input().split()));print(sum(sorted([abs(n[i]-n[j]) for i in range(3) for j in range(i+1,3)])[:2]))

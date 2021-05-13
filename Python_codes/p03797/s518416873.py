@@ -1,0 +1,10 @@
+S,c=map(int,input().split())
+ans=0
+if(c<=S*2):
+    ans=c//2
+elif(c>S*2):
+    if(c-(2*S)<4):
+        ans=S
+    elif(c-(2*S)>=4):
+        ans=S+((c-(S*2))//4)
+print(ans)

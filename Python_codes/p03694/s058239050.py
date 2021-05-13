@@ -1,0 +1,1 @@
+a,s=open(0);k=sorted(s.split());print(eval(k[-1]+"-"+k[0]))

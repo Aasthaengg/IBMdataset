@@ -1,0 +1,1 @@
+N=50;k,s=divmod(int(input()),N);print(N);print(*([49-s+k]*(N-s)+[100-s+k]*s))

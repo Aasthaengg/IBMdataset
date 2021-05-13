@@ -1,0 +1,1 @@
+n=eval(input().replace(' ','+'));print(['error',n][n<10])

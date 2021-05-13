@@ -1,0 +1,1 @@
+a,b=sorted(map(int,input().split()));print(b+b-1 if b-1>a else b+a)

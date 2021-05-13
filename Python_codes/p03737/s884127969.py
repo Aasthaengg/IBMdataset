@@ -1,0 +1,15 @@
+import sys
+from collections import deque
+import numpy as np
+import math
+sys.setrecursionlimit(10**6)
+def S(): return sys.stdin.readline().rstrip()
+def SL(): return map(str,sys.stdin.readline().rstrip().split())
+def I(): return int(sys.stdin.readline().rstrip())
+def IL(): return map(int,sys.stdin.readline().rstrip().split())
+
+if __name__=='__main__':
+    s,t,u = SL()
+    x = s[0]+t[0]+u[0]
+    print(x.upper())
+    exit()

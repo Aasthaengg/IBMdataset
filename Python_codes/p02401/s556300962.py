@@ -1,0 +1,5 @@
+while(True):
+  a,op,b=input().split()
+  if op == '?':
+    break
+  print(int(eval(a+op+b)))

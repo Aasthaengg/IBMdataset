@@ -1,0 +1,1 @@
+print(*[*zip(*input().upper().split())][0],sep='')

@@ -1,0 +1,1 @@
+A,B=map(int,input().split());print("PIomspsoisbslieb l e"[all([A%3,B%3,(A+B)%3])::2])

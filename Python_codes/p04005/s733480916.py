@@ -1,0 +1,6 @@
+A, B, C = map(int, input().split())
+a = abs((A-A//2) - A//2)
+b = abs((B-B//2) - B//2)
+c = abs((C-C//2) - C//2)
+ans = min(a*B*C, A*b*C, A*B*c)
+print(ans)

@@ -1,0 +1,1 @@
+print(eval('0--~-'+''.join([i if i!=' 'else'//~-'for i in input()])))

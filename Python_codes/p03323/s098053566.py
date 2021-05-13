@@ -1,0 +1,1 @@
+a,b=map(int,input().split());print(':Y(a y !'[16-a-b>=max(a,b)-min(a,b)::2])

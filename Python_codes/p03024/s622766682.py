@@ -1,0 +1,1 @@
+print('NYOE S'[input().count('x')<8::2])

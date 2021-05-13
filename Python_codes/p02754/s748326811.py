@@ -1,0 +1,5 @@
+N,A,B = map(int,input().split())
+chance = N//(A+B)
+spare = N%(A+B)
+ans = chance*A + min(spare,A)
+print(ans)

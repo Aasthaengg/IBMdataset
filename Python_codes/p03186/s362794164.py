@@ -1,0 +1,1 @@
+A,B,C=map(int,input().split());print(min(2*B+min(A,max(0,C-B))+1,B+C))

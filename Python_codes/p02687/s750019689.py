@@ -1,0 +1,1 @@
+print('ABCARC'.replace(input(), ''))

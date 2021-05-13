@@ -1,0 +1,5 @@
+s=input()
+n=len(s)
+ans=s.count("WB")
+anss=s.count("BW")
+print(ans+anss)

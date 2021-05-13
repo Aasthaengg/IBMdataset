@@ -1,0 +1,6 @@
+s=int(input())
+h=int(s/3600)
+m=int(s/60-60*h)
+s=int(s-3600*h-60*m)
+h,m,s=map(str,(h,m,s))
+print(h+':'+m+':'+s)

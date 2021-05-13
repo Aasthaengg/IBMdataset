@@ -1,0 +1,1 @@
+print ("YNeos"[len(''.join(set(sorted(input()))))!=2::2])

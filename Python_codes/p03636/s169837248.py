@@ -1,0 +1,3 @@
+s = input()
+
+print("{0}{1}{2}".format(s[0], len(s)-2, s[-1]))

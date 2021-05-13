@@ -1,0 +1,5 @@
+N=input()
+n=int(N)
+a=int(n//2)
+b=int(n%2)
+print(a+b)

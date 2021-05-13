@@ -1,0 +1,1 @@
+r,g=map(int,open(0).read().split());print(g*2-r)

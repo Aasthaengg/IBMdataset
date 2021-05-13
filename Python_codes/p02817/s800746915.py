@@ -1,0 +1,1 @@
+print("".join(list(reversed(list(map(str,input().split()))))))

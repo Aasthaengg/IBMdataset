@@ -1,0 +1,1 @@
+import collections as c;print(sum([i%2!=0 for i in c.Counter([int(input()) for _ in range(int(input()))]).values()]))

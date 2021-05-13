@@ -1,0 +1,5 @@
+str = input().split()
+n = int(str[0])
+str = input().split()
+a = int(str[0])
+print(n * n - a)

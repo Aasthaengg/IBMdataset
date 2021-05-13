@@ -1,0 +1,1 @@
+print(8-__import__("math").floor((int(input())-400)/200))

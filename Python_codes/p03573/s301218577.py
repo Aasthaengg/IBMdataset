@@ -1,0 +1,1 @@
+l=list(map(int,input().split()));print(list(x for x in l if l.count(x)==1)[0])

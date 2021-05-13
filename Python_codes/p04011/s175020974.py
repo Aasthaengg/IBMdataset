@@ -1,0 +1,5 @@
+n = int(input())
+k = int(input())
+x = int(input())
+y = int(input())
+print(min(k, n) * (x) + ((n - k) * y if n - k > 0 else 0))

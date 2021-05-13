@@ -1,0 +1,6 @@
+a,b,c = input().split(' ')
+dif = ord('A') -ord('a')
+print(chr((ord(a[0]) + dif))
+      ,chr((ord(b[0]) + dif))
+      ,chr((ord(c[0]) + dif))
+      , sep='')

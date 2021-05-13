@@ -1,0 +1,1 @@
+a,b,n=map(int,open(0).read().split());print(-(-n//max(a,b)))

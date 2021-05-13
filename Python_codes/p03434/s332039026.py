@@ -1,0 +1,6 @@
+N=int(input())
+A=list(map(int,input().split()))
+new_A=sorted(A,reverse=True)
+alice_total=sum(new_A[0::2])
+bob_total=sum(new_A[1::2])
+print(alice_total-bob_total)

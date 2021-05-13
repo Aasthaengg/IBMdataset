@@ -1,0 +1,4 @@
+def a():
+    s=list(map(int,input().split()))
+    print(s[0]-s[1]+1)
+a()

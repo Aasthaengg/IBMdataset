@@ -1,0 +1,1 @@
+print((lambda x:["A", "B"][abs(x[0]-x[1]) > abs(x[0]-x[2])]) (list(map(int,input().split()))))

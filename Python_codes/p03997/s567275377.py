@@ -1,0 +1,17 @@
+import sys
+import copy
+import math
+import bisect
+import pprint
+import bisect
+from functools import reduce
+from copy import deepcopy
+from collections import deque
+
+if __name__ == '__main__':
+    a = [int(i) for i in input().split()]
+    b = [int(i) for i in input().split()]
+
+    c = [int(i) for i in input().split()]
+
+    print(((a[0]+b[0])*c[0])//2)

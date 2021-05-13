@@ -1,0 +1,6 @@
+n = int(input())
+a_i = list(map(int, input().split()))
+min = min(a_i)
+max = max(a_i)
+sum = sum(a_i)
+print(min, max, sum)

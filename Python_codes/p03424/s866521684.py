@@ -1,0 +1,1 @@
+a,o=open(0);print('TFhoruere'['Y'in o::2])

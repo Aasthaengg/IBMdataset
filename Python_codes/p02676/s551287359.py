@@ -1,0 +1,1 @@
+k,s=open(0).read().split();print(s if len(s)<=int(k) else s[:int(k)]+"...")

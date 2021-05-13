@@ -1,0 +1,5 @@
+n= int(input())
+n2= int(input())
+h = int(input())
+result=((n+n2)/2*h)
+print(round(result))

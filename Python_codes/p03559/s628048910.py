@@ -1,0 +1,50 @@
+n=int(input())
+a=sorted(list(map(int,input().split())))
+b=sorted(list(map(int,input().split())))
+c=sorted(list(map(int,input().split())))
+cnt=0
+x=[]
+i=0
+b__=b.copy()
+rev=0
+while(b__):
+     b_=b__.pop()
+     while(1):
+          try:
+               c_=c.pop()
+          except:
+               rev+=cnt
+               x.append(rev)
+               cnt=0
+               break
+          if c_>b_:
+               cnt+=1
+          else:
+               rev+=cnt
+               x.append(rev)
+               cnt=0
+               c.append(c_)
+               break
+cnt=0
+i=n-1
+rev=0
+ans=0
+while(a):
+     a_=a.pop()
+     while(1):
+          try:
+               b_=b.pop()
+          except:
+               rev+=cnt
+               ans+=rev
+               cnt=0
+               break
+          if b_>a_:
+               cnt+=x.pop(0)
+          else:
+               rev+=cnt
+               ans+=rev
+               cnt=0
+               b.append(b_)
+               break
+print(ans)

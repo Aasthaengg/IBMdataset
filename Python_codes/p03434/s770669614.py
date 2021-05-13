@@ -1,0 +1,7 @@
+N = int(input())
+c = list(map(int,input().split()))
+c.sort(reverse = True)
+#print(c[::2])
+#print(c[1::2])
+diff = sum(c[::2])-sum(c[1::2])
+print(diff)

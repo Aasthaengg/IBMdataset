@@ -1,0 +1,14 @@
+a,b,c,k=map(int,input().split())
+ans=0
+if(a>=k):
+    ans+=k
+  #print(k)
+elif(a<k):
+    ans+=a
+    if(k-a<=b):
+        ans+=(k-a)*0
+    elif(k-a>b):
+        ans+=b*0
+        ans-=k-a-b
+    #print(ans)
+print(ans)

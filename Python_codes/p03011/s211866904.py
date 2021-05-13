@@ -1,0 +1,1 @@
+print(sum(sorted([int(time) for time in input().split()])[:2]))

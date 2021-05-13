@@ -1,0 +1,6 @@
+N=input()
+A=len(N)
+#print(N[A-1])
+print(N[0],end="")
+print(len(N)-2,end="")
+print(N[A-1])

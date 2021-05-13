@@ -1,0 +1,1 @@
+print(len([s for i,s in enumerate(input()) if s!="CODEFESTIVAL2016"[i]]))

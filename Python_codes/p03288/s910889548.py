@@ -1,0 +1,1 @@
+a=int(input());print("A"+"BRG"[(a>1199)+(a>2799)]+"C")

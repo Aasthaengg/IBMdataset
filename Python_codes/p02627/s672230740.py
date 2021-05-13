@@ -1,0 +1,1 @@
+print(chr(65+32*(ord(input())>96)))

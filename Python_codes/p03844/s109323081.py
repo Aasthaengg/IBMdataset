@@ -1,0 +1,5 @@
+s,t,u = input().split()
+a = int(s)
+b = int(u)
+if t == '+': print(a+b)
+elif t == '-': print(a-b)

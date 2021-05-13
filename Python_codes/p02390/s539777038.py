@@ -1,0 +1,5 @@
+S = int(input())
+h = int(S/60/60)
+m = int((S-h*60*60)/60)
+s = int(S-h*60*60-m*60)
+print(h,':',m,':',s, sep='')

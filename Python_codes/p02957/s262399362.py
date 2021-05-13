@@ -1,0 +1,1 @@
+print((lambda x:('IMPOSSIBLE' if (x[0]+x[1])%2==1 else (x[0]+x[1])//2))(list(map(int,input().split()))))

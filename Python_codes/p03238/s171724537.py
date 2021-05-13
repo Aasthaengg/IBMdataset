@@ -1,0 +1,1 @@
+I=lambda:int(input());print(I()+I()if~-I()else'Hello World')

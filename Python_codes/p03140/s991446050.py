@@ -1,0 +1,1 @@
+_,*t=open(0);print(sum(len(set(s))-1for s in zip(*t)))

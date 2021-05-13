@@ -1,0 +1,34 @@
+s=input();ans=0
+if s[0]!='C':
+    ans+=1
+if s[1]!='O':
+    ans+=1
+if s[2]!='D':
+    ans+=1
+if s[3]!='E':
+    ans+=1
+if s[4]!='F':
+    ans+=1
+if s[5]!='E':
+    ans+=1
+if s[6]!='S':
+    ans+=1
+if s[7]!='T':
+    ans+=1
+if s[8]!='I':
+    ans+=1
+if s[9]!='V':
+    ans+=1
+if s[10]!='A':
+    ans+=1
+if s[11]!='L':
+    ans+=1
+if s[12]!='2':
+    ans+=1
+if s[13]!='0':
+    ans+=1
+if s[14]!='1':
+    ans+=1
+if s[15]!='6':
+    ans+=1
+print(ans)

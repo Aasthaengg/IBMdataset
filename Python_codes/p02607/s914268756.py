@@ -1,0 +1,1 @@
+N,*A=map(int,open(0).read().split());print(len([i for i in A[::2]if i%2]))

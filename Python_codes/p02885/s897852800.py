@@ -1,0 +1,1 @@
+print((lambda x:max(x[0]-2*x[1],0))(list(map(int,input().split()))))

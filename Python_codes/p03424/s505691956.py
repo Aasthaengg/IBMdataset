@@ -1,0 +1,1 @@
+_=input();s=input().split();print("TFhoruere"["Y"in s::2])

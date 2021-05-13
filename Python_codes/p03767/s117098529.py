@@ -1,0 +1,5 @@
+n = int(input())
+a_l = list(map(int, input().split()))
+a_l = sorted(a_l)
+ans = sum([ a for a in a_l[n::2]])
+print(ans)

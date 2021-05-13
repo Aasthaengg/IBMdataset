@@ -1,0 +1,5 @@
+A = list(map(int,input().split()))
+X = abs(A[0]-A[1])
+Y = abs(A[1]-A[2])
+Z = abs(A[2]-A[0])
+print(X+Y+Z-max(X,Y,Z))

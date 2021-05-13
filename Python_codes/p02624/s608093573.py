@@ -1,0 +1,12 @@
+n = int(input())
+
+ans = 0
+
+for i in range(1, n + 1):
+    if i == 1:
+        ans += sum(range(1,n + 1))
+    else:
+        t = n//i
+        ans += 0.5 * i * t * ( t + 1)
+
+print(int(ans))

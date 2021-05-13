@@ -1,0 +1,5 @@
+N,M,X = map(int,input().split())
+Als = list(map(int,input().split()))
+cost1 = sum(1 for x in Als if x>X) 
+cost2 = sum(1 for x in Als if x<X) 
+print(min(cost1,cost2))

@@ -1,0 +1,5 @@
+x = raw_input()
+a,b = x.strip().split(" ")
+a = int(a)
+b = int(b)
+print "%d %d" % (a*b, (a*2)+(b*2))

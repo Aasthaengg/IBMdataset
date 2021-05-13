@@ -1,0 +1,5 @@
+s=str(input())
+n=s.find('C');m=s.rfind('F')
+#print(n,m)
+if 0<=n<m:print('Yes')
+else:print('No')

@@ -1,0 +1,1 @@
+l=list(map(int,input().split()));print("Left" if sum(l[:2])>sum(l[2:]) else "Balanced" if sum(l[:2])==sum(l[2:]) else "Right" )

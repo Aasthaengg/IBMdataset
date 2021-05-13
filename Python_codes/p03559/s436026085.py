@@ -1,0 +1,1 @@
+from bisect import *;N=int(input());A,B,C=[sorted(map(int,input().split())) for _ in "ABC"];print(sum(bisect_left(A,i)*(N-bisect_right(C,i)) for i in B))

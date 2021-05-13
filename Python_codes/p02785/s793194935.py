@@ -1,0 +1,5 @@
+N, K = map(int, input().split())
+H = list(map(int, input().split()))
+H.sort()
+idx = max(0, N - K)
+print(sum(H[:idx]))

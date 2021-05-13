@@ -1,0 +1,1 @@
+print('Yes' if ''.join(sorted([i for i in input()]))=='abc' else 'No')

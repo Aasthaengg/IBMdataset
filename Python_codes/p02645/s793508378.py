@@ -1,0 +1,6 @@
+S=list(input())
+l=list()
+l.append(S[0])
+l.append(S[1])
+l.append(S[2])
+print(''.join(l))

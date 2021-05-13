@@ -1,0 +1,1 @@
+a,s=open(0).read().split();print(["red",s][int(a)>=3200])

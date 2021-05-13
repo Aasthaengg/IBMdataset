@@ -1,0 +1,6 @@
+# a,b = map(int, input().split())
+N = int(input())
+# B = int(input())
+# C = int(input())
+# X = input()
+print("ABC" if N < 1000 else "ABD")

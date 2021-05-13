@@ -1,0 +1,9 @@
+A,B,C = map(int,input().split())
+K = int(input())
+while B <= A:
+  B *= 2
+  K -= 1
+while C <= B:
+  C *= 2
+  K -= 1
+print("Yes" if K >= 0 else "No")

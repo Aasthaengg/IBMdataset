@@ -1,0 +1,12 @@
+import math
+n = int(input())
+x = list(map(float, input().split()))
+y = list(map(float, input().split()))
+p1 = sum([math.fabs(x[i]-y[i]) for i in range(n)])
+p2 = math.sqrt(sum([math.fabs(x[i]-y[i])**2 for i in range(n)]))
+p3 = math.pow(sum([math.fabs(x[i]-y[i])**3 for i in range(n)]), 1/3)
+pp = max([math.fabs(x[i]-y[i]) for i in range(n)])
+print("{0:.6f}".format(p1))
+print("{0:.6f}".format(p2))
+print("{0:.6f}".format(p3))
+print("{0:.6f}".format(pp))

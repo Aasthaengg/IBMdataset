@@ -1,0 +1,1 @@
+print("H" if len(set(input().split()))==1 else "D")

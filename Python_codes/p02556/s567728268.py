@@ -1,0 +1,13 @@
+n = int(input())
+amx = -float("inf")
+amn = float("inf")
+bmx = -float("inf")
+bmn = float("inf")
+ans = -float("inf")
+for i in range(n):
+    a,b = map(int,input().split())
+    amx = max(amx,a+b)
+    amn = min(amn,a+b)
+    bmx = max(bmx,a-b)
+    bmn = min(bmn,a-b)
+print(max(amx-amn,bmx-bmn))

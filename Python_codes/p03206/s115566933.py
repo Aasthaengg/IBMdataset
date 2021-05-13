@@ -1,0 +1,1 @@
+print('Christmas {} '.format((25-int(input()))*'Eve '))

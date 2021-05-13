@@ -1,0 +1,5 @@
+a,b,c,d = map(int,input().split())
+lab = abs(a-b)
+lbc = abs(b-c)
+lac = abs(a-c)
+print("Yes" if lac<=d or (lab<=d and lbc<=d) else "No")

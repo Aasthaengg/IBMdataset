@@ -1,0 +1,6 @@
+def main():
+    a, b = map(int,input().split())
+    ans = a*b
+    print(ans)
+
+main()

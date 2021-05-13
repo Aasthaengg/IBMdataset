@@ -1,0 +1,1 @@
+n=eval(input().replace(' ','-2*'));print(n if n>0 else 0)

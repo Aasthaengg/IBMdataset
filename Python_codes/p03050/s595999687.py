@@ -1,0 +1,21 @@
+n = int(input())
+def make_divisors(n):
+    divisors = []
+    # 試し割りで、かつ積でnを作るときの相方も同時に追加してる
+    for i in range(1, int(n**0.5)+1):
+        if n % i == 0:
+            divisors.append(i)
+            if i != n // i:
+                divisors.append(n//i)
+
+    divisors.sort()
+    return divisors
+divisors = make_divisors(n)
+ans = 0
+for div in divisors:
+    if div != 1:
+        q,r = divmod(n,div-1)
+        if q == r:
+            ans += div-1
+print(ans)
+

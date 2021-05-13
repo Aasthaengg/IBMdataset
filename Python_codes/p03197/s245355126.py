@@ -1,0 +1,1 @@
+print(["first","second"][all([int(input()) % 2 == 0 for _ in range(int(input()))])])

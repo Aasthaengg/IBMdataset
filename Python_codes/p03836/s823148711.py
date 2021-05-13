@@ -1,0 +1,12 @@
+a,b,c,d = [int(x) for x in input().split()]
+x = c-a
+y = d-b
+
+ans1=x*"R"+y*"U"
+ans2=x*"L"+y*"D"
+ans3="D"+(1+x)*"R"+(1+y)*"U"+"L"
+ans4="U"+(1+x)*"L"+(1+y)*"D"+"R"
+
+
+ans = ans1+ans2+ans3+ans4
+print(ans)

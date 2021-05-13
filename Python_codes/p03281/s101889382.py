@@ -1,0 +1,14 @@
+N = int(input())
+tmp = []
+Cnt = []
+
+for i in range(1, N+1):
+    cnt = 0
+    for j in range(1, i+1):
+        if i % 2 != 0 and i % j == 0:
+            cnt += 1
+    tmp.append(cnt)
+    if cnt == 8:
+        Cnt.append(cnt)
+
+print(len(Cnt))

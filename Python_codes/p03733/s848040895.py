@@ -1,0 +1,1 @@
+_,T,*t=map(int,open(0).read().split());print(sum(min(T,j-i)for i,j in zip(t,t[1:]))+T)

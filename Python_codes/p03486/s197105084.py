@@ -1,0 +1,5 @@
+s = input()
+t = input()
+S = sorted(s)
+T = sorted(t, reverse=True)
+print("Yes" if S<T else "No")

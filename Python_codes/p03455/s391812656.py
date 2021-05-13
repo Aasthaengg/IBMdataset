@@ -1,0 +1,1 @@
+print('Even' if [1 for i in list(map(int,input().split())) if i%2==0] else 'Odd')

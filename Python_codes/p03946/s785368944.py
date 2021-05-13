@@ -1,0 +1,1 @@
+from numpy import*;_,a=open(0);*a,=map(int,a.split());c=array(a)-minimum.accumulate(a);print(list(c).count(max(c)))

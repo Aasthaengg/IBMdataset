@@ -1,0 +1,6 @@
+x,y,x2,y2 = map(int,input().split())
+x3 = x2+(y-y2)
+y3 = y2+(x2-x)
+x4 = x+(y-y2)
+y4 = y+(x2-x)
+print(x3,y3,x4,y4)

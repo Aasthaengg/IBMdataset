@@ -1,0 +1,1 @@
+n,k=map(int,input().split());print(sum([1,4/2**len(bin(~-k//i))][i<k]for i in range(1,n+1))/n)

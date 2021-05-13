@@ -1,0 +1,1 @@
+print(sum([i*(i-1)//2 for i in list(map(int, input().split()))]))

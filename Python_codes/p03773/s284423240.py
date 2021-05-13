@@ -1,0 +1,1 @@
+p=eval(input().replace(" ","+"));print(p-24if p>23else p)

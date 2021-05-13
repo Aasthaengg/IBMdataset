@@ -1,0 +1,19 @@
+import math
+
+def isprime(n):
+    if x == 2:
+        return True
+    if x % 2 == 0:
+        return False
+    for i in range(3, math.floor(math.sqrt(n))+1 , 2):
+        if x % i == 0:
+            return False
+    return True
+
+n = int(input())
+count = 0
+for i in range(n):
+    x = int(input())
+    if isprime(x):
+        count += 1
+print(count)

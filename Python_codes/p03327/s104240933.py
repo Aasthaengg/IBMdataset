@@ -1,0 +1,1 @@
+print('DC'[len(input('AB'))<4])

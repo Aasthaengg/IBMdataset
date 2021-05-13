@@ -1,0 +1,1 @@
+print((lambda x:('Sunny' if x == 'Rainy' else ('Cloudy' if x == 'Sunny' else 'Rainy')))(input()))

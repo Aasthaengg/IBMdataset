@@ -1,0 +1,1 @@
+print(sum([1 for i in range(int(input())) if len(str(i+1)) % 2 == 1]))

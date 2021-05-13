@@ -1,0 +1,1 @@
+print(f"A{'BRG'[int(input())//50+8>>5]}C")
